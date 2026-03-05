@@ -1,0 +1,148 @@
+/* --- Sunset Autumn Color Palette --- */
+@define-color bg-dark rgba(26, 21, 21, 0.85);   /* Deep charcoal with a hint of red */
+@define-color autumn-orange #e67e22;           /* Bright orange from the leaves */
+@define-color sunset-red #c0392b;              /* Darker red for warnings/critical */
+@define-color golden-hour #f1c40f;             /* Highlights and active workspaces */
+@define-color mist-white #ecf0f1;               /* Soft white for text readability */
+@define-color shadow-black #000000;
+
+* {
+  border: none;
+  border-radius: 10px;
+  font-family: "JetBrains Mono Nerd Font", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: white;
+}
+
+tooltip {
+  background: @bg-dark;
+  border: 1px solid rgba(100, 114, 125, 0.5);
+}
+tooltip label {
+  color: white;
+}
+
+#workspaces {
+  background: @bg-dark;
+}
+#workspaces button {
+  padding: 0 20px;
+  color: white;
+}
+#workspaces button:hover {
+  background: @sunset-red;
+}
+#workspaces button.focused {
+  background: @autumn-orange;
+}
+
+.modules-right {
+}
+
+#mode, #clock, #battery {
+  padding: 0 10px;
+  background: @autumn-orange;
+}
+
+#clock, #battery {
+  background: @autumn-orange;
+  font-weight: 700;
+}
+
+#battery {
+  padding-right: 20px;
+}
+
+#mode {
+  background: #64727D;
+  border-bottom: 3px solid white;
+}
+
+#battery.charging {
+  color: white;
+  background-color: #26A65B;
+}
+
+@keyframes blink {
+  to {
+    background-color: #ffffff;
+    color: black;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background: #f53c3c;
+  color: white;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#pulseaudio {
+  background: @bg-dark;
+  padding: 0 15px;
+}
+
+#network {
+  background: @sunset-red;
+  padding: 0 8px;
+  padding-right: 16px;
+}
+
+#cpu {
+    background-color: @bg-dark;
+    color: #fff;
+    padding: 0 10px;
+    transition: background-color 0.5s ease-in-out; 
+}
+
+#cpu.warning {
+    background-color: @autumn-orange;
+    color: #fff;
+}
+
+#cpu.critical {
+    background-color: @sunset-red;
+    color: #fff;
+}
+
+#temperature {
+  background: @bg-dark;
+  padding: 0 10px;
+}
+
+#group-power {
+  background: @bg-dark;
+  padding-right: 5px;
+}
+
+#group-power * {
+  margin: 0 10px;
+}
+
+#custom-media {
+  background: @bg-dark;
+  padding: 0 10px;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+#custom-media.playing {
+  color: #cdd6f4;
+}
+
+#custom-media.paused {
+  color: #6c7086;
+  font-style: italic;
+}
+
+#custom-media.stopped {
+  color: transparent;
+}

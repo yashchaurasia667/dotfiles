@@ -15,9 +15,11 @@ vim.cmd("noremap t t")
 vim.cmd("noremap T T")
 
 vim.cmd("noremap o ;")
+vim.cmd("noremap k n")
 
 -- editing
 vim.cmd("noremap s d")
+vim.cmd("noremap S D")
 vim.cmd("noremap ss dd")
 
 vim.cmd("noremap u i")

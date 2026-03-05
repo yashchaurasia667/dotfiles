@@ -1,17 +1,202 @@
 {
-    "layer": "top",
-    "height": 35,
-    "modules-left": ["sway/workspaces", "sway/mode"],
-    "modules-center": ["sway/window"],
-    "modules-right": ["battery", "clock"],
-    "sway/window": {
-        "max-length": 50
+  "layer": "bottom",
+  "position": "top",
+  "height": 35,
+
+  "margin": 5,
+  "spacing": 6,
+
+  "modules-left": [
+    "group/group-power",
+    "sway/mode", 
+    "sway/workspaces", 
+    "sway/scratchpad"
+  ],
+  "modules-center": [
+    "custom/media"
+  ],
+  "modules-right": [
+    "custom/notification",
+    "network", 
+    "group/group-cpu", 
+    "pulseaudio", 
+    "battery", 
+    "clock"
+  ],
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󰍝<span foreground='red'><sup></sup></span>",
+      "none": "󰍝",
+      "dnd-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": "󰍝<span foreground='red'><sup></sup></span>",
+      "inhibited-none": "󰍝",
+      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": ""
     },
-    "battery": {
-        "format": "{capacity}% {icon}",
-        "format-icons": ["", "", "", "", ""]
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "custom/media": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "$HOME/.config/waybar/mediaplayer.sh",
+    "interval": 2,
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "max-length": 50
+  },
+
+ "group/group-power": {
+    "orientation": "horizontal",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": true
     },
-    "clock": {
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+    "modules": [
+      "custom/power",
+      "custom/quit",
+      "custom/lock",
+      "custom/reboot"
+    ]
+  },
+
+  "custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "shutdown now"
+  },
+  "custom/quit": {
+    "format": "󰗼",
+    "tooltip": false,
+    "on-click": "swaymsg exit"
+  },
+  "custom/lock": {
+    "format": "󰍁",
+    "tooltip": false,
+    "on-click": "swaylock"
+  },
+  "custom/reboot": {
+    "format": "󰜉",
+    "tooltip": false,
+    "on-click": "reboot"
+  },
+
+  "group/group-cpu": {
+
+    "orientation": "horizontal",
+    "drawer": {
+      "transition-duration": 300,
+      "children-class": "not-cpu",
+      "transition-left-to-right": false
+    },
+    "modules": [
+      "cpu",
+      "temperature"
+    ]
+  },
+
+  "cpu": {
+    "interval": 10,
+    "format": "{usage}% ",
+    "tooltip": true,
+    "max-length": 10,
+    "states": {
+      "warning": 50,
+      "critical": 80
     }
+  },
+  "temperature": {
+    "thermal-zone": 2,
+    "critical-threshold": 90,
+    "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
+  },
+
+  "sway/mode": {
+    "format": " {}",
+    "max-length": 50
+  },
+
+  "sway/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5"
+    },
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "1": "",
+      "2": "",
+      "3": "",
+      "4": ""
+    }
+  },
+
+  "sway/scratchpad": {
+    "format": "{icon} {count}",
+    "show-empty": false,
+    "format-icons": ["", ""],
+    "tooltip": true,
+    "tooltip-format": "{app}: {title}"
+  },
+
+   "pulseaudio": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "phone-muted": "",
+      "portable": "",
+      "car": "",
+      "default": ["", ""]
+    },
+  },
+
+  "network": {
+    "interface": "wlp0s20f3",
+    "format": "{ifname}",
+    "format-wifi": "",
+    "format-ethernet": "󰊗",
+    "format-disconnected": "󰖪",
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "clock": {
+    "format-alt": "{:%a, %d. %b  %H:%M}",
+    "tooltip": false
+  },
+
+  "tray": {
+    "spacing": 10,
+    "icons": {
+      "blueman": "bluetooth"
+    }
+  }
 }

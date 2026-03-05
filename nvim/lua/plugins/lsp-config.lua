@@ -22,7 +22,7 @@ return {
           -- Shell
           "bashls",
           -- Build systems
-          "cmake",
+          "neocmake",
           -- Go
           "gopls",
           -- Java
