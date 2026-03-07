@@ -65,12 +65,18 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
 alias ls='ls --color'
+alias ll='ls -la --color'
 alias c='clear'
 alias stuff='cd /home/yash/Documents/Stuff'
 alias skl='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia java -jar /usr/bin/SKlauncher-3.2.18.jar'
+alias uwlpr='/home/yash/.config/scripts/theme_switcher'
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
+
+# pywall theming
+(cat ~/.cache/wal/sequences &)
+source ~/.cache/wal/colors-tty.sh

@@ -1,0 +1,55 @@
+@import '../../.cache/wal/colors-waybar.css';
+@import 'themes/nova-dark/notifications.css';
+@import 'themes/nova-dark/central_control.css';
+
+/* --- Volume and Brightness Sliders --- */
+
+.widget-volume,
+.widget-backlight {
+  background-color: @background;
+  padding: 10px;
+  margin: 5px 10px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+/* The Label (Icon) */
+.widget-volume > box > label,
+.widget-backlight > box > label {
+  color: @foreground;
+  padding-right: 10px;
+}
+
+/* The Slider Track (Empty part) */
+.widget-volume trough,
+.widget-backlight trough {
+  background: @color8;  /* Often a dark grey/dim color in Pywal */
+  border-radius: 12px;
+  min-height: 8px;      /* Force a minimum height */
+}
+
+/* The Slider Highlight (Filled part) - VOLUME */
+.widget-volume highlight {
+  background: @color4;  /* Uses Pywal's Blue */
+  border-radius: 12px;
+  min-height: 8px;
+}
+
+/* The Slider Highlight (Filled part) - BRIGHTNESS */
+.widget-backlight highlight {
+  background: @color3; /* Uses Pywal's Yellow */
+  border-radius: 12px;
+  min-height: 8px;
+}
+
+/* The Slider Handle (The little circle you drag) */
+.widget-volume slider,
+.widget-backlight slider {
+  background: @foreground;
+  box-shadow: none;
+  border-radius: 50%;
+  min-height: 16px;
+  min-width: 16px;
+  margin: -4px;
+}
+

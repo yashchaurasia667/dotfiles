@@ -1,0 +1,84 @@
+{
+  "app_name": "80510c874abe43149f3db85756351da6",
+  "app_title": "Trine 4: Definitive Edition",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "80510c874abe43149f3db85756351da6",
+      "asset_id": "80510c874abe43149f3db85756351da6",
+      "build_version": "1.0.0b10482",
+      "catalog_item_id": "11d8ff921ede45b8bcb87e084d3a7e0c",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "01e8e43c48284812a63410da92027e96"
+      },
+      "namespace": "2d7949724dd348f79b8e4084e029f8e3",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567Dhf6R8hoa6x2gLWmyqr6N2B4",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2023-10-27T05:06:02.924Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "Trine4DefinitiveEditIp3E7"
+      }
+    },
+    "description": "Join three iconic heroes as they set off on a quest through fantastical fairytale landscapes to save the world from the Nightmare Prince\u2019s shadows. Trine 4: Definitive Edition includes Trine 4: The Nightmare Prince and the Trine 4: Melody of Mystery DLC campaign.",
+    "developer": "Frozenbyte",
+    "developerId": "o-seftpupacer2lj7wwra7k36hx9pxqz",
+    "endOfSupport": false,
+    "entitlementName": "11d8ff921ede45b8bcb87e084d3a7e0c",
+    "entitlementType": "EXECUTABLE",
+    "id": "11d8ff921ede45b8bcb87e084d3a7e0c",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Trine 4 Definitive Edition Offer",
+        "height": 1440,
+        "md5": "cf3af569878413b0e23802b4390c3b58",
+        "size": 3058970,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-11-12T10:29:02.401Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/b61d8ed9ff724cfe969ee79b41e604a5/trine-4-definitive-edition-14xl2.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Trine 4 Definitive Edition Offer",
+        "height": 1600,
+        "md5": "1081a386e816fc1004dba516d5ac766d",
+        "size": 1883279,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-11-12T10:29:04.145Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/b61d8ed9ff724cfe969ee79b41e604a5/trine-4-definitive-edition-9978q.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-12-19T18:01:34.768Z",
+    "mainGameItemList": [],
+    "namespace": "2d7949724dd348f79b8e4084e029f8e3",
+    "releaseInfo": [
+      {
+        "appId": "80510c874abe43149f3db85756351da6",
+        "id": "c306b5f92a3047c2b80d4fe45428374b",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Trine 4: Definitive Edition",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

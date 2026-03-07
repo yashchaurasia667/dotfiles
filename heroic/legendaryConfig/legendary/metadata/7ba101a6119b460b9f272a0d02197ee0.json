@@ -1,0 +1,88 @@
+{
+  "app_name": "7ba101a6119b460b9f272a0d02197ee0",
+  "app_title": "Nobody Wants to Die",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "7ba101a6119b460b9f272a0d02197ee0",
+      "asset_id": "7ba101a6119b460b9f272a0d02197ee0",
+      "build_version": "1.0.1.2.46832",
+      "catalog_item_id": "6629e423663e482ca4f98240998182ec",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "a25d57df1aa14085a51f3ca8f567f679"
+      },
+      "namespace": "60b8d9b4c2be4e34aeec311c953c2ee2",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567UTaTDwy4ZVRyiQYkUHGHnpS5",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-11-10T16:04:47.291Z",
+    "customAttributes": {
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/detnoir/Saved/SaveGames/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "NobodyWantsToDie"
+      }
+    },
+    "description": "Lose yourself in the dystopian world of New York, 2329. In this interactive noir story, lead the investigation using advanced technology as Detective James Karra, who risks it all in pursuit of a serial killer targeting the city\u2019s elite.",
+    "developer": "Plaion",
+    "developerId": "o-jskfz28ywm2l56px6h9rlxplaysrtl",
+    "endOfSupport": false,
+    "entitlementName": "6629e423663e482ca4f98240998182ec",
+    "entitlementType": "EXECUTABLE",
+    "id": "6629e423663e482ca4f98240998182ec",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Nobody Wants to Die Offer",
+        "height": 1440,
+        "md5": "e2f2b4e9161e09af4b7f083f3f9fa0d4",
+        "size": 749075,
+        "type": "DieselGameBox",
+        "uploadedDate": "2026-01-19T13:14:00.932Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-1szhy.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Nobody Wants to Die Offer",
+        "height": 1600,
+        "md5": "10e2d9d72e15a691438f52fef545569e",
+        "size": 465556,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2026-01-19T13:14:14.991Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/dece0016082647a6af5759dbbedfc8eb/nobody-wants-to-die-6ti9i.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-02-11T15:40:48.397Z",
+    "mainGameItemList": [],
+    "namespace": "60b8d9b4c2be4e34aeec311c953c2ee2",
+    "releaseInfo": [
+      {
+        "appId": "7ba101a6119b460b9f272a0d02197ee0",
+        "id": "b811748053994ab6a041eeaabebbcf7e",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Nobody Wants to Die",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

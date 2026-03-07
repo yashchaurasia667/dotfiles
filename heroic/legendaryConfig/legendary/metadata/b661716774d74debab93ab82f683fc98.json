@@ -1,0 +1,360 @@
+{
+  "app_name": "b661716774d74debab93ab82f683fc98",
+  "app_title": "Cassette Beasts",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "b661716774d74debab93ab82f683fc98",
+      "asset_id": "b661716774d74debab93ab82f683fc98",
+      "build_version": "1.8.4",
+      "catalog_item_id": "e71eec3e42394296a81b4a4e8cee9591",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "6feffc2fc5624ceb9c378389c434e229",
+        "update_type": "PATCH"
+      },
+      "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567QBBfiEWeuLbbdGRHVUZVFm1i",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2022-11-03T12:43:58.966Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "CassetteBeasts"
+      }
+    },
+    "description": "Collect awesome monsters[/b] to use during turn-based battles in this open-world RPG, now with online multiplayer mode. Combine any two monster forms using Cassette Beasts\u2019 Fusion System to create unique and powerful new ones!",
+    "developer": "Raw Fury",
+    "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+    "dlcItemList": [
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-07-02T10:25:25.538Z",
+        "customAttributes": {},
+        "description": "Charge your oversized flashlights and steel your nerves for \"Pier of the Unknown\", a new DLC for Cassette Beasts!",
+        "developer": "Raw Fury",
+        "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+        "endOfSupport": false,
+        "entitlementName": "0e43db4555804aeb81ea18a33d14da1a",
+        "entitlementType": "EXECUTABLE",
+        "id": "0e43db4555804aeb81ea18a33d14da1a",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Cassette Beasts Cassette Beasts: Pier of the Unknown Offer",
+            "height": 1440,
+            "md5": "b541ea8bb216379eb7c09063f8b77d11",
+            "size": 3167565,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-10-08T14:05:28.245Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-u9vpa.png",
+            "width": 2560
+          },
+          {
+            "alt": "Download Cassette Beasts Cassette Beasts: Pier of the Unknown Offer",
+            "height": 1600,
+            "md5": "af8110ac8508a510b1dc430e0ebaabe2",
+            "size": 1518633,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-10-08T14:05:28.025Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-113ov.png",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-04T14:48:06.631Z",
+        "mainGameItem": {
+          "id": "e71eec3e42394296a81b4a4e8cee9591",
+          "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "e71eec3e42394296a81b4a4e8cee9591",
+            "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+        "releaseInfo": [
+          {
+            "appId": "8ddc34a533094118b433d6095d746039",
+            "id": "a03c71dbd35f4754b1d412f3fb3e3a33",
+            "platform": [
+              "Windows"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Cassette Beasts: Pier of the Unknown",
+        "unsearchable": false
+      },
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-11-04T13:02:30.012Z",
+        "customAttributes": {},
+        "description": "Take flight in the new Wings Pack cosmetic items for Cassette Beasts! This pack include 8 new fanciful wing skins to have you looking your best in the skies of New Wirral.",
+        "developer": "Raw Fury",
+        "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+        "endOfSupport": false,
+        "entitlementName": "5ae181d9b8714c5da3dc9fe01906b874",
+        "entitlementType": "EXECUTABLE",
+        "id": "5ae181d9b8714c5da3dc9fe01906b874",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Cassette Beasts Cassette Beasts: Wings Pack Offer",
+            "height": 1440,
+            "md5": "a43fb69cf37a6d74858b9a4e06aeca72",
+            "size": 2639008,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-09-03T12:35:45.695Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-pq2ff.png",
+            "width": 2560
+          },
+          {
+            "alt": "Download Cassette Beasts Cassette Beasts: Wings Pack Offer",
+            "height": 1600,
+            "md5": "2c02794f1fa35e2853652b15c99ef340",
+            "size": 1499167,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-09-03T12:35:47.079Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-wpa9x.png",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-04T13:02:30.012Z",
+        "mainGameItem": {
+          "id": "e71eec3e42394296a81b4a4e8cee9591",
+          "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "e71eec3e42394296a81b4a4e8cee9591",
+            "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+        "releaseInfo": [
+          {
+            "appId": "f8b8598037464deca08931f21f3fb490",
+            "id": "60efdf34c6d843ecbf0fb980752358f8",
+            "platform": [
+              "Windows"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Cassette Beasts: Wings Pack",
+        "unsearchable": false
+      },
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-07-02T10:25:39.968Z",
+        "customAttributes": {},
+        "description": "With six cosmetic items that will allow you to express yourself even more, this Cosplay pack will dress you up for wherever the adventure in New Wirral takes you. Look absolutely stunning in this costume line inspired by renowned darlings and troublemakers!",
+        "developer": "Raw Fury",
+        "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+        "endOfSupport": false,
+        "entitlementName": "614ecd9473654404bebbfe254a18125b",
+        "entitlementType": "EXECUTABLE",
+        "id": "614ecd9473654404bebbfe254a18125b",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Cassette Beasts Cassette Beasts: Cosplay Pack Offer",
+            "height": 1440,
+            "md5": "6683ef71fc352ac98923dc0714b3707f",
+            "size": 2247453,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-09-03T12:23:24.405Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-ez0re.png",
+            "width": 2560
+          },
+          {
+            "alt": "Download Cassette Beasts Cassette Beasts: Cosplay Pack Offer",
+            "height": 1600,
+            "md5": "cfb5d5a00cd8fbdcc1c20f194f1228f4",
+            "size": 1372081,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-09-03T12:23:26.615Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-1iyrh.png",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-04T14:48:06.631Z",
+        "mainGameItem": {
+          "id": "e71eec3e42394296a81b4a4e8cee9591",
+          "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "e71eec3e42394296a81b4a4e8cee9591",
+            "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+        "releaseInfo": [
+          {
+            "appId": "e61f0c9e02534e6fb2e6e8a968a6518e",
+            "id": "701c075b345648388a3ada1b71f21271",
+            "platform": [
+              "Windows"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Cassette Beasts: Cosplay Pack",
+        "unsearchable": false
+      },
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-07-02T10:25:05.804Z",
+        "customAttributes": {},
+        "description": "For those looking to impress, we introduce the Fashion Pack! Including 14 new outfits and hairstyles to level up your fit, this cosmetic DLC will have you looking slick in New Wirral!",
+        "developer": "Raw Fury",
+        "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+        "endOfSupport": false,
+        "entitlementName": "5b432418992a44e7ba47eebcb5382176",
+        "entitlementType": "EXECUTABLE",
+        "id": "5b432418992a44e7ba47eebcb5382176",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Cassette Beasts Cassette Beasts: Fashion Pack Offer",
+            "height": 1440,
+            "md5": "32025b80e8b17ad5fc3ded14c385c872",
+            "size": 3823500,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-09-03T12:37:01.159Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-1m822.png",
+            "width": 2560
+          },
+          {
+            "alt": "Download Cassette Beasts Cassette Beasts: Fashion Pack Offer",
+            "height": 1600,
+            "md5": "13d274d2e07b0e9f7623b58abc2e2c98",
+            "size": 1985984,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-09-03T12:37:02.088Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-1a1i1.png",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-04T14:48:06.631Z",
+        "mainGameItem": {
+          "id": "e71eec3e42394296a81b4a4e8cee9591",
+          "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "e71eec3e42394296a81b4a4e8cee9591",
+            "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+        "releaseInfo": [
+          {
+            "appId": "ab5b174601da4d3c8ca38a38147a8e5b",
+            "id": "625b51b44c3d4e4e96f9615911072ac3",
+            "platform": [
+              "Windows"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Cassette Beasts: Fashion Pack",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "e71eec3e42394296a81b4a4e8cee9591",
+    "entitlementType": "EXECUTABLE",
+    "id": "e71eec3e42394296a81b4a4e8cee9591",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Cassette Beasts Offer",
+        "height": 1440,
+        "md5": "4ba0658f799b9c90f90c693cddcb2a20",
+        "size": 3440327,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-08-28T12:07:30.686Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-1eoeo.png",
+        "width": 2560
+      },
+      {
+        "alt": "Download Cassette Beasts Offer",
+        "height": 1600,
+        "md5": "494da3d531f05d1890f8911c6c44d420",
+        "size": 2020983,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-08-28T12:07:32.395Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/c313d3804fb64aefa57f0a7b827ec389/cassette-beasts-aicxh.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-11-04T14:48:06.631Z",
+    "mainGameItemList": [],
+    "namespace": "1bbc3e512f4d40e4b889920814335c3f",
+    "releaseInfo": [
+      {
+        "appId": "b661716774d74debab93ab82f683fc98",
+        "id": "5a6b625fc1214d309fb2a4649f831806",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Cassette Beasts",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "8a9278d481cf4ed39b27833ef1829c24"
+    },
+    "rev": 1
+  }
+}

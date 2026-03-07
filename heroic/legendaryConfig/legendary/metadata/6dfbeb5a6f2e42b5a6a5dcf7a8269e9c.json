@@ -1,0 +1,208 @@
+{
+  "app_name": "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c",
+  "app_title": "Rustler - Grand Theft Horse",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c",
+      "asset_id": "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c",
+      "build_version": "1.54.6.1",
+      "catalog_item_id": "74b8de4cd48249d794475a6b9ddea96d",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "4b81480e6eca4945a87810e1387a1d09",
+        "update_type": "PATCH"
+      },
+      "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-12-10T12:39:37.203Z",
+    "customAttributes": {
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/../LocalLow/JutsuGames/Rustler/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "RustlerGrandTheftHor21486"
+      },
+      "MaxSizeMB": {
+        "type": "STRING",
+        "value": "25"
+      }
+    },
+    "description": "Rustler - Grand Theft Horse",
+    "developer": "Games Operators S.A.",
+    "developerId": "o-8dv8wz77w8tqnymmm8e99p28eny7kg",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-11-19T15:45:48.656Z",
+        "description": "Rustler - Vinci",
+        "developer": "Games Operators S.A.",
+        "developerId": "o-8dv8wz77w8tqnymmm8e99p28eny7kg",
+        "endOfSupport": false,
+        "entitlementName": "a2b65d69341e4d46a6b26efa1ccbec00",
+        "entitlementType": "EXECUTABLE",
+        "id": "a2b65d69341e4d46a6b26efa1ccbec00",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Rustler - Grand Theft Horse Rustler - Vinci Offer",
+            "height": 1440,
+            "md5": "418fa9246ab28c72bb0937445023e52d",
+            "size": 610125,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-11-20T16:25:56.997Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1kmo4.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Rustler - Grand Theft Horse Rustler - Vinci Offer",
+            "height": 1600,
+            "md5": "61f869c3c6222ff50ba8059e177cab9c",
+            "size": 878780,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-11-20T16:25:54.114Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1kuq9.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2026-01-22T18:03:41.475Z",
+        "mainGameItem": {
+          "id": "74b8de4cd48249d794475a6b9ddea96d",
+          "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "74b8de4cd48249d794475a6b9ddea96d",
+            "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Rustler - Vinci",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-11-19T15:46:13.129Z",
+        "description": "Rustler - Murder Madness",
+        "developer": "Games Operators S.A.",
+        "developerId": "o-8dv8wz77w8tqnymmm8e99p28eny7kg",
+        "endOfSupport": false,
+        "entitlementName": "32fb3c770114476285a3c08fbb437c6e",
+        "entitlementType": "EXECUTABLE",
+        "id": "32fb3c770114476285a3c08fbb437c6e",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Rustler - Grand Theft Horse Rustler - Murder Madness Offer",
+            "height": 1440,
+            "md5": "4018128f75260b09bed76ddae3810ef7",
+            "size": 3123673,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-12-05T19:13:12.314Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-8a6vq.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Rustler - Grand Theft Horse Rustler - Murder Madness Offer",
+            "height": 1600,
+            "md5": "6aa3085912ea95f4e858805c0bf4325e",
+            "size": 2201889,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-12-05T19:13:18.907Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1g7dm.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2026-01-22T18:03:41.475Z",
+        "mainGameItem": {
+          "id": "74b8de4cd48249d794475a6b9ddea96d",
+          "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "74b8de4cd48249d794475a6b9ddea96d",
+            "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Rustler - Murder Madness",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "74b8de4cd48249d794475a6b9ddea96d",
+    "entitlementType": "EXECUTABLE",
+    "id": "74b8de4cd48249d794475a6b9ddea96d",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Rustler - Grand Theft Horse Offer",
+        "height": 1440,
+        "md5": "b2249bb901e3d7239a31e088ae552e24",
+        "size": 749249,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-11-20T16:24:37.254Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-122b0.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Rustler - Grand Theft Horse Offer",
+        "height": 1600,
+        "md5": "1bb25b744b14eff649d6e97db0711141",
+        "size": 1200969,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-11-20T16:24:41.458Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/a1324ca83bc543ae8747f8d5a99d777a/rustler--grand-theft-horse-1dmte.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-12-10T12:39:37.607Z",
+    "mainGameItemList": [],
+    "namespace": "aca2ee0619aa482791f0a71dbf3eeac0",
+    "releaseInfo": [
+      {
+        "appId": "6dfbeb5a6f2e42b5a6a5dcf7a8269e9c",
+        "id": "97a987a2-370f-43ee-82e2-65f633763caa",
+        "platform": [
+          "Win32",
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Rustler - Grand Theft Horse",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

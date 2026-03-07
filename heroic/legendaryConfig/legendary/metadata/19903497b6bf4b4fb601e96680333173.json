@@ -1,0 +1,84 @@
+{
+  "app_name": "19903497b6bf4b4fb601e96680333173",
+  "app_title": "Botany Manor",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "19903497b6bf4b4fb601e96680333173",
+      "asset_id": "19903497b6bf4b4fb601e96680333173",
+      "build_version": "1.0.7205EGS",
+      "catalog_item_id": "66c68a2c5160418a976902a74145a8c6",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "8d0e297b33204f1ba46b2565cb2d6dcf"
+      },
+      "namespace": "969bbfac9e7840a986c1d594ccd55c01",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567hChbAtzimYTh5241zFfG9uOX",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2023-11-22T17:16:37.039Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "BotanyManorRUzaT"
+      }
+    },
+    "description": "Welcome to Botany Manor, a stately home in 19th century England. You play as inhabitant Arabella Greene, a retired botanist. Explore your house and gardens, filled with research, to figure out the ideal habitat of forgotten flora.",
+    "developer": "White Thorn Digital",
+    "developerId": "o-v7c8xq9bmhtqhakulz7lrptnz8b628",
+    "endOfSupport": false,
+    "entitlementName": "66c68a2c5160418a976902a74145a8c6",
+    "entitlementType": "EXECUTABLE",
+    "id": "66c68a2c5160418a976902a74145a8c6",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Botany Manor Offer",
+        "height": 1440,
+        "md5": "3aeeb385038f50c373dbc0b1e061bda8",
+        "size": 2010193,
+        "type": "DieselGameBox",
+        "uploadedDate": "2024-06-05T14:23:44.370Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-1noxm.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Botany Manor Offer",
+        "height": 1600,
+        "md5": "385009112131afed51bbf012b360433c",
+        "size": 889099,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2024-06-05T14:23:43.658Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/42d56a88c22d4eaa8977bf5528a2396b/botany-manor-wkuzo.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-01-29T20:04:55.756Z",
+    "mainGameItemList": [],
+    "namespace": "969bbfac9e7840a986c1d594ccd55c01",
+    "releaseInfo": [
+      {
+        "appId": "19903497b6bf4b4fb601e96680333173",
+        "id": "8def7802e7b74fe8b545b241c0a9724c",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Botany Manor",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

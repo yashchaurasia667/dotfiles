@@ -1,0 +1,85 @@
+{
+  "app_name": "81fbec1949fb4458bbe5c2711d0d64f6",
+  "app_title": "Trine 3: The Artifacts of Power",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "81fbec1949fb4458bbe5c2711d0d64f6",
+      "asset_id": "81fbec1949fb4458bbe5c2711d0d64f6",
+      "build_version": "1.12b3202",
+      "catalog_item_id": "cf02a03da55b4777844820fa28f27708",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "1580cec5f34f48428c128a7ef8588bed",
+        "update_type": "PATCH"
+      },
+      "namespace": "6c5ce18b887f421aa9497ec7542afd23",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi4567n85OjqnXhsXzqLaWjq77j0NR",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-09-23T23:12:37.372Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "Trine3TheArtifactsofVNROA"
+      }
+    },
+    "description": "Trine 3: The Artifacts of Power is a 3D platforming game of action, puzzles and adventure. \n\nThe heroes return their extraordinary gifts to the Artifact called Trine, and so they meddle with powers beyond their understanding: Trine shatters, and an ancient sorcerer escapes!",
+    "developer": "Frozenbyte",
+    "developerId": "o-seftpupacer2lj7wwra7k36hx9pxqz",
+    "endOfSupport": false,
+    "entitlementName": "cf02a03da55b4777844820fa28f27708",
+    "entitlementType": "EXECUTABLE",
+    "id": "cf02a03da55b4777844820fa28f27708",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Trine 3: The Artifacts of Power Offer",
+        "height": 1440,
+        "md5": "db46d646de5e11d0a32bada1f4d6c412",
+        "size": 1894346,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-11-12T11:04:46.738Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/10a55229d552428ab7778f4862bf5dc0/trine-3-the-artifacts-of-power-1pb8u.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Trine 3: The Artifacts of Power Offer",
+        "height": 1600,
+        "md5": "e9ce8cd23c0cb7600512d7ad51fa5203",
+        "size": 2954871,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-11-12T11:00:28.157Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/10a55229d552428ab7778f4862bf5dc0/trine-3-the-artifacts-of-power-17c1u.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-12-19T18:01:27.205Z",
+    "mainGameItemList": [],
+    "namespace": "6c5ce18b887f421aa9497ec7542afd23",
+    "releaseInfo": [
+      {
+        "appId": "81fbec1949fb4458bbe5c2711d0d64f6",
+        "id": "586c685d0146418bb08db5dbe4735713",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Trine 3: The Artifacts of Power",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

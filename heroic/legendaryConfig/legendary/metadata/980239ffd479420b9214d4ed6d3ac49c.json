@@ -1,0 +1,93 @@
+{
+  "app_name": "980239ffd479420b9214d4ed6d3ac49c",
+  "app_title": "MaSzyna",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "980239ffd479420b9214d4ed6d3ac49c",
+      "asset_id": "980239ffd479420b9214d4ed6d3ac49c",
+      "build_version": "26.01.2",
+      "catalog_item_id": "3370107c410349a1a395e325cf247810",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "5a6a11228d074937be1cc0d4c221267f",
+        "update_type": "PATCH"
+      },
+      "namespace": "3f7db637a8694e19bdfa464233c90fdf",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-09-14T23:28:02.122Z",
+    "customAttributes": {
+      "CloudIncludeList": {
+        "type": "STRING",
+        "value": "eu07.ini, ksiazka_wozu.txt, eu07_input-gamepad.ini, eu07_input-keyboard.ini, eu07_input-mouse.ini, eu07_input-uart.ini, imgui.ini"
+      },
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/../Roaming/MaSzyna/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "MaSzyna"
+      }
+    },
+    "description": "MaSzyna is a train simulator that lets you step into the cab and take control of the most iconic locomotives running on Polish railways.",
+    "developer": "eu07",
+    "developerId": "o-lmv7prnm7bc9j4de9tuj932tdxvl5z",
+    "endOfSupport": false,
+    "entitlementName": "3370107c410349a1a395e325cf247810",
+    "entitlementType": "EXECUTABLE",
+    "id": "3370107c410349a1a395e325cf247810",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "MaSzyna Offer",
+        "height": 1440,
+        "md5": "e76fed1f08dce7d8dbda20d5c099da91",
+        "size": 4151827,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-11-08T11:16:00.283Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/e01551227c4d4c179733bf8b0b0473c9/maszyna-ackb9.png",
+        "width": 2560
+      },
+      {
+        "alt": "Download MaSzyna Offer",
+        "height": 1600,
+        "md5": "7bb5d02cc23d9f8790763afa919f2779",
+        "size": 3854194,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-11-08T11:16:01.899Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/e01551227c4d4c179733bf8b0b0473c9/maszyna-588a8.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-01-14T17:00:10.439Z",
+    "mainGameItemList": [],
+    "namespace": "3f7db637a8694e19bdfa464233c90fdf",
+    "releaseInfo": [
+      {
+        "appId": "980239ffd479420b9214d4ed6d3ac49c",
+        "id": "5b32c2be7f604641be39225398c03e5b",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "MaSzyna",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

@@ -1,0 +1,162 @@
+{
+  "app_name": "1cac0c3169fa4c018f98e517cd0717bb",
+  "app_title": "SKALD Against the Black Priory",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "1cac0c3169fa4c018f98e517cd0717bb",
+      "asset_id": "1cac0c3169fa4c018f98e517cd0717bb",
+      "build_version": "1.0.30",
+      "catalog_item_id": "399115c1a9c84a38b4dfdfa93f231ed0",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "ecc490303c3d497eb6d35bf9a7d829bb",
+        "update_type": "MINOR"
+      },
+      "namespace": "18cec32f6f994aad963423441a42a931",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-11-04T13:02:14.118Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "SKALD"
+      }
+    },
+    "description": "SKALD Against the Black Priory",
+    "developer": "Raw Fury",
+    "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+    "dlcItemList": [
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-11-04T13:02:14.127Z",
+        "customAttributes": {},
+        "description": "SKALD: Against the Black Priory - Reinforcement Pack",
+        "developer": "Raw Fury",
+        "developerId": "o-fay4ghw9hhamujs53rfhy83ffexb7k",
+        "endOfSupport": false,
+        "entitlementName": "f2c923b415514fb6aefc3adf653feef9",
+        "entitlementType": "EXECUTABLE",
+        "id": "f2c923b415514fb6aefc3adf653feef9",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "SKALD Against the Black Priory SKALD: Against the Black Priory - Reinforcement Pack Offer",
+            "height": 1440,
+            "md5": "774012a659d6fb8bf91d413018290c34",
+            "size": 344147,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-10-13T14:51:29.977Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/b96afc9b56fd444384f48bac79bb2bf6/skald-against-the-black-priory-1l0yu.png",
+            "width": 2560
+          },
+          {
+            "alt": "Download SKALD Against the Black Priory SKALD: Against the Black Priory - Reinforcement Pack Offer",
+            "height": 1600,
+            "md5": "6c13fbe73b900d3db643074980379b4c",
+            "size": 246466,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-10-13T14:51:28.391Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/b96afc9b56fd444384f48bac79bb2bf6/skald-against-the-black-priory-siku7.png",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-04T13:02:14.127Z",
+        "mainGameItem": {
+          "id": "399115c1a9c84a38b4dfdfa93f231ed0",
+          "namespace": "18cec32f6f994aad963423441a42a931",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "399115c1a9c84a38b4dfdfa93f231ed0",
+            "namespace": "18cec32f6f994aad963423441a42a931",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "18cec32f6f994aad963423441a42a931",
+        "releaseInfo": [
+          {
+            "appId": "93b90dd8828a429cac838b75f9f85229",
+            "id": "97c9ae712c0d40b3bcf928dab46d1bd8",
+            "platform": [
+              "Win32",
+              "Windows",
+              "Mac"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "SKALD: Against the Black Priory - Reinforcement Pack",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "399115c1a9c84a38b4dfdfa93f231ed0",
+    "entitlementType": "EXECUTABLE",
+    "id": "399115c1a9c84a38b4dfdfa93f231ed0",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "SKALD Against the Black Priory Offer",
+        "height": 1440,
+        "md5": "5eb5879dd12688877fffedb4d0f64cef",
+        "size": 320635,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-10-13T14:48:22.238Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/b96afc9b56fd444384f48bac79bb2bf6/skald-against-the-black-priory-22ved.png",
+        "width": 2560
+      },
+      {
+        "alt": "Download SKALD Against the Black Priory Offer",
+        "height": 1600,
+        "md5": "1ae1eea7dd9983734f96222fa119c161",
+        "size": 363732,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-10-13T14:48:29.606Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/b96afc9b56fd444384f48bac79bb2bf6/skald-against-the-black-priory-eszo3.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-11-04T13:02:14.682Z",
+    "mainGameItemList": [],
+    "namespace": "18cec32f6f994aad963423441a42a931",
+    "releaseInfo": [
+      {
+        "appId": "1cac0c3169fa4c018f98e517cd0717bb",
+        "id": "5ea274f988824a6ab73f874f6a87ba7a",
+        "platform": [
+          "Windows",
+          "Mac"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "SKALD Against the Black Priory",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "a7186f44a87a4b2b879b06bda277daf8"
+    },
+    "rev": 1
+  }
+}

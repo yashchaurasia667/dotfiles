@@ -45,47 +45,44 @@ set hlsearch            " highlight matches
 set background=dark    " configure Vim to use brighter colors
 set autoread           " autoreload the file in Vim if it has been changed outside of Vim
 
-noremap m o
-noremap M O
-
-noremap o ;
-
-" deleting
-noremap dd gg
-noremap D G
-noremap d g
-
-noremap f e
-noremap g t
-noremap j y
-noremap k n
-noremap l u
-noremap p r
-noremap ; p
-noremap r s
-noremap s d
-noremap t f
-noremap u i
-noremap D G
-noremap E K
-noremap F E
-noremap G T
-noremap I L
-noremap J Y
-noremap K N
-noremap L U
-noremap N J
-noremap O P
-noremap P R
-noremap R S
-noremap S D
-noremap T F
-
 " movement remaps
 noremap j n
 noremap e k
 noremap i l
 noremap n j
 
-" insert mode remaps
+noremap dd gg
+noremap D G
+
+"searching
+noremap f f
+noremap F F
+
+noremap t t
+noremap T T
+
+noremap o ;
+noremap k n
+
+" editing
+noremap s d
+noremap S D
+noremap ss dd
+
+noremap u i
 noremap U I
+
+noremap l u
+noremap L U
+
+noremap m o
+noremap M O
+
+noremap ; p
+noremap : P
+
+noremap O :
+
+"vim.cmd("nnoremap j y")
+"vim.cmd("nnoremap jj yy")
+"vim.cmd("nnoremap J Y")

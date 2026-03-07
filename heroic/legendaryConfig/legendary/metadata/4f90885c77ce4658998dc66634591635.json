@@ -1,0 +1,155 @@
+{
+  "app_name": "4f90885c77ce4658998dc66634591635",
+  "app_title": "Sorry We're Closed",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "4f90885c77ce4658998dc66634591635",
+      "asset_id": "4f90885c77ce4658998dc66634591635",
+      "build_version": "1.0.7",
+      "catalog_item_id": "37b863d5ac744d179ced57192c416489",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "69984f1f0ad64cbc8cdbd3b8ea2f6a77"
+      },
+      "namespace": "489af623d8284d518502f8ee9d33b828",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2023-05-01T19:36:14.823Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "SorryWereClosedA6xd3"
+      }
+    },
+    "description": "Sorry We're Closed is a story-driven survival horror game about demons, angels and what happens when both sides collide. A mix of fixed-camera exploration and arcade-style shooting where Michelle must use her Third Eye to see between worlds, uncover secrets and solve puzzles.",
+    "developer": "Akupara Games",
+    "developerId": "o-vzv8n7jse99sluj4vaa8522rh45cvg",
+    "dlcItemList": [
+      {
+        "applicationId": "",
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-12-22T18:50:41.178Z",
+        "customAttributes": {},
+        "description": "Sorry We're Closed - Art Book (DO NOT USE)",
+        "developer": "Akupara Games",
+        "developerId": "o-vzv8n7jse99sluj4vaa8522rh45cvg",
+        "endOfSupport": false,
+        "entitlementName": "94884433575e47eb9533cc8f6cc71b76",
+        "entitlementType": "EXECUTABLE",
+        "id": "94884433575e47eb9533cc8f6cc71b76",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Sorry Were Closed Sorry We're Closed - Art Book Offer",
+            "height": 1440,
+            "md5": "66723433e366a3994dff78ada10b3ab9",
+            "size": 4192470,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-12-19T21:30:08.402Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1j2xl.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Sorry Were Closed Sorry We're Closed - Art Book Offer",
+            "height": 1600,
+            "md5": "1ccd9405c9fb279ac775466509acddde",
+            "size": 1859190,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-12-19T21:30:09.804Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-12rbv.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-12-22T18:50:41.178Z",
+        "mainGameItem": {
+          "id": "37b863d5ac744d179ced57192c416489",
+          "namespace": "489af623d8284d518502f8ee9d33b828",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "37b863d5ac744d179ced57192c416489",
+            "namespace": "489af623d8284d518502f8ee9d33b828",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "489af623d8284d518502f8ee9d33b828",
+        "releaseInfo": [
+          {
+            "appId": "d013fc52fa3c44cdb7730276d6480c9c",
+            "id": "e26260774f9e435991482d0a07735086",
+            "platform": [
+              "Win32",
+              "Windows"
+            ]
+          }
+        ],
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Sorry We're Closed - Art Book (DO NOT USE)",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "37b863d5ac744d179ced57192c416489",
+    "entitlementType": "EXECUTABLE",
+    "id": "37b863d5ac744d179ced57192c416489",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Sorry Were Closed Offer",
+        "height": 1440,
+        "md5": "6c964d64359e04b194c0b5f29cc7bf55",
+        "size": 4176281,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-12-19T21:32:27.323Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-1c6pv.png",
+        "width": 2560
+      },
+      {
+        "alt": "Download Sorry Were Closed Offer",
+        "height": 1600,
+        "md5": "7e20ec1c72d728fcad736313b4648c51",
+        "size": 2643397,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-12-19T21:33:29.664Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/9ab7eaaeb2f041969b350955b789f0f7/sorry-were-closed-h5e28.png",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-01-05T22:02:18.676Z",
+    "mainGameItemList": [],
+    "namespace": "489af623d8284d518502f8ee9d33b828",
+    "releaseInfo": [
+      {
+        "appId": "4f90885c77ce4658998dc66634591635",
+        "id": "fe2c577969ad43c28b4cc482cfc69e84",
+        "platform": [
+          "Win32",
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Sorry We're Closed",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

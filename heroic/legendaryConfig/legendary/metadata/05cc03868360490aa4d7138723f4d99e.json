@@ -1,0 +1,315 @@
+{
+  "app_name": "05cc03868360490aa4d7138723f4d99e",
+  "app_title": "Jotunnslayer: Hordes of Hel",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "05cc03868360490aa4d7138723f4d99e",
+      "asset_id": "05cc03868360490aa4d7138723f4d99e",
+      "build_version": "1.1.3.91851",
+      "catalog_item_id": "193ae706e4ef468aa030326aa0781efe",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "f2f99544d335482f8c7f92298b9aef23",
+        "update_type": "PATCH"
+      },
+      "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "fghi45674I1O9C54olHb4frI85y7c3V8",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2024-10-15T13:34:24.716Z",
+    "customAttributes": {
+      "CloudSaveFolder": {
+        "type": "STRING",
+        "value": "{AppData}/../LocalLow/Games Farm/Jotunnslayer/saves/"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "JotunnslayerHordesofrI2Zp"
+      }
+    },
+    "description": "Hordes of Hel is a gripping roguelike horde-survivor game set in the dark realms of Norse Mythology. Fight waves of enemies to earn divine blessings of ancient Norse Gods, explore hostile worlds and face powerful bosses. Become a god-like warrior in this ultimate showdown.",
+    "developer": "Grindstone, s.r.o.",
+    "developerId": "o-a79cwprw6d72drlw3l6ttac3smmz46",
+    "dlcItemList": [
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-01-13T10:58:34.090Z",
+        "description": "Jotunnslayer: Hordes of Hel - Odin\u2019s Legendary Armor Pack",
+        "developer": "Grindstone, s.r.o.",
+        "developerId": "o-a79cwprw6d72drlw3l6ttac3smmz46",
+        "endOfSupport": false,
+        "entitlementName": "f78f462e8ecf4b2e9abeab8b0800ddc9",
+        "entitlementType": "EXECUTABLE",
+        "id": "f78f462e8ecf4b2e9abeab8b0800ddc9",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Odin\u2019s Legendary Armor Pack Offer",
+            "height": 1440,
+            "md5": "2df7d6b5b0c04627876e834f72797d51",
+            "size": 2949344,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-01-16T14:32:44.317Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1pvk1.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Odin\u2019s Legendary Armor Pack Offer",
+            "height": 1600,
+            "md5": "a86e729d122a815006d7716af8a6698d",
+            "size": 1813710,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-01-16T14:32:26.000Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-11rg8.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-08-30T11:17:07.200Z",
+        "mainGameItem": {
+          "id": "193ae706e4ef468aa030326aa0781efe",
+          "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "193ae706e4ef468aa030326aa0781efe",
+            "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Jotunnslayer: Hordes of Hel - Odin\u2019s Legendary Armor Pack",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-08-30T11:17:07.215Z",
+        "description": "Jotunnslayer: Hordes of Hel - Tyr's Mythical Armor Pack",
+        "developer": "Grindstone, s.r.o.",
+        "developerId": "o-a79cwprw6d72drlw3l6ttac3smmz46",
+        "endOfSupport": false,
+        "entitlementName": "19d7a4406b7344e386e0d240d06e1cd5",
+        "entitlementType": "EXECUTABLE",
+        "id": "19d7a4406b7344e386e0d240d06e1cd5",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Tyr's Mythical Armor Pack Offer",
+            "height": 1440,
+            "md5": "b36939e7dd90c7185758a788c466eb87",
+            "size": 1282646,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-08-11T10:26:55.374Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1o4gv.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Tyr's Mythical Armor Pack Offer",
+            "height": 1600,
+            "md5": "2dd1d2bac3789fee2086e8c13de9947f",
+            "size": 713111,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-08-11T10:29:02.706Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1uvgi.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-08-30T11:17:07.215Z",
+        "mainGameItem": {
+          "id": "193ae706e4ef468aa030326aa0781efe",
+          "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "193ae706e4ef468aa030326aa0781efe",
+            "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Jotunnslayer: Hordes of Hel - Tyr's Mythical Armor Pack",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-08-30T11:17:07.221Z",
+        "description": "Jotunnslayer: Hordes of Hel - Heimdal's Bifrost Armor Pack",
+        "developer": "Grindstone, s.r.o.",
+        "developerId": "o-a79cwprw6d72drlw3l6ttac3smmz46",
+        "endOfSupport": false,
+        "entitlementName": "ff62aa6f838249aeaeaa7418492fdba6",
+        "entitlementType": "EXECUTABLE",
+        "id": "ff62aa6f838249aeaeaa7418492fdba6",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Heimdal's Bifrost Armor Pack Offer",
+            "height": 1440,
+            "md5": "fc5df26009407121f15b4f32853595df",
+            "size": 1019816,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-08-11T12:33:06.899Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1tu7z.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Heimdal's Bifrost Armor Pack Offer",
+            "height": 1600,
+            "md5": "d4ce148b07491dd62e1d9985456b8aa5",
+            "size": 569457,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-08-11T12:33:06.594Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1tdqs.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-08-30T11:17:07.221Z",
+        "mainGameItem": {
+          "id": "193ae706e4ef468aa030326aa0781efe",
+          "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "193ae706e4ef468aa030326aa0781efe",
+            "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Jotunnslayer: Hordes of Hel - Heimdal's Bifrost Armor Pack",
+        "unsearchable": false
+      },
+      {
+        "categories": [
+          {
+            "path": "addons"
+          }
+        ],
+        "creationDate": "2025-11-22T06:21:15.250Z",
+        "description": "Jotunnslayer: Hordes of Hel - Freyr's Gilded Armor Pack",
+        "developer": "Grindstone, s.r.o.",
+        "developerId": "o-a79cwprw6d72drlw3l6ttac3smmz46",
+        "endOfSupport": false,
+        "entitlementName": "94fcd3b5a2414b73b785086c6a04c005",
+        "entitlementType": "EXECUTABLE",
+        "id": "94fcd3b5a2414b73b785086c6a04c005",
+        "itemType": "DURABLE",
+        "keyImages": [
+          {
+            "alt": "Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Freyr's Gilded Armor Pack Offer",
+            "height": 1440,
+            "md5": "6eed71615f259730f0691ade316d3815",
+            "size": 1188523,
+            "type": "DieselGameBox",
+            "uploadedDate": "2025-11-21T12:41:04.547Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-e0n83.jpg",
+            "width": 2560
+          },
+          {
+            "alt": "Download Jotunnslayer: Hordes of Hel Jotunnslayer: Hordes of Hel - Freyr's Gilded Armor Pack Offer",
+            "height": 1600,
+            "md5": "0faabe60aec5933be7f1ac267b573b14",
+            "size": 634120,
+            "type": "DieselGameBoxTall",
+            "uploadedDate": "2025-11-21T12:41:17.860Z",
+            "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-1oj5y.jpg",
+            "width": 1200
+          }
+        ],
+        "lastModifiedDate": "2025-11-22T06:21:15.250Z",
+        "mainGameItem": {
+          "id": "193ae706e4ef468aa030326aa0781efe",
+          "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+          "unsearchable": false
+        },
+        "mainGameItemList": [
+          {
+            "id": "193ae706e4ef468aa030326aa0781efe",
+            "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+            "unsearchable": false
+          }
+        ],
+        "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+        "requiresSecureAccount": false,
+        "status": "ACTIVE",
+        "title": "Jotunnslayer: Hordes of Hel - Freyr's Gilded Armor Pack",
+        "unsearchable": false
+      }
+    ],
+    "endOfSupport": false,
+    "entitlementName": "193ae706e4ef468aa030326aa0781efe",
+    "entitlementType": "EXECUTABLE",
+    "id": "193ae706e4ef468aa030326aa0781efe",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Jotunnslayer: Hordes of Hel Offer",
+        "height": 1440,
+        "md5": "975fa9571e44e0db3ede596f2e1d2316",
+        "size": 3235144,
+        "type": "DieselGameBox",
+        "uploadedDate": "2025-01-10T10:41:11.916Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-q9ves.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Jotunnslayer: Hordes of Hel Offer",
+        "height": 1600,
+        "md5": "fcb54f7d15d29d1282965b4a50053adb",
+        "size": 1657685,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2025-01-10T10:40:46.432Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/18f679a82b234692874031d40a3aaea1/jotunnslayer-hordes-of-hel-8gq8y.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-01-08T20:50:30.195Z",
+    "mainGameItemList": [],
+    "namespace": "d8a39ea2f35e49b58f18c2b96aec276a",
+    "releaseInfo": [
+      {
+        "appId": "05cc03868360490aa4d7138723f4d99e",
+        "id": "dd0d0d428ecb439c8cbdc51feb781ea4",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Jotunnslayer: Hordes of Hel",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

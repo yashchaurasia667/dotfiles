@@ -1,0 +1,89 @@
+{
+  "app_name": "e68e9229fd4a4a6c9a76038705ba6ae3",
+  "app_title": "Styx: Shards of Darkness - Deluxe Edition",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "e68e9229fd4a4a6c9a76038705ba6ae3",
+      "asset_id": "e68e9229fd4a4a6c9a76038705ba6ae3",
+      "build_version": "Custom-build-2026-01-26-11-37-03",
+      "catalog_item_id": "d5c9e5f3392e459b833fe4f2a0db2229",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "c95a464a02a1429889a3adfc043d8be0"
+      },
+      "namespace": "795fdebb6c6e497d98cee43057286743",
+      "sidecar_rev": 1
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2025-12-03T15:48:04.538Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "StyxShardsofDarknessG2rrA"
+      }
+    },
+    "description": "Styx returns in a new stealth adventure! Explore and master huge open environments, sneak past or assassinate new enemies and bosses, and experiment with the new array of lethal abilities and weapons in our goblin assassin's arsenal.",
+    "developer": "Nacon",
+    "developerId": "o-wubu848ps2xcxuwv2m3bhet9gbhdbp",
+    "endOfSupport": false,
+    "entitlementName": "d5c9e5f3392e459b833fe4f2a0db2229",
+    "entitlementType": "EXECUTABLE",
+    "id": "d5c9e5f3392e459b833fe4f2a0db2229",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "Styx: Shards of Darkness Offer",
+        "height": 1440,
+        "md5": "011279ff413dbf2486749e65c452eb04",
+        "size": 857397,
+        "type": "DieselGameBox",
+        "uploadedDate": "2026-01-05T11:20:55.045Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-c752r.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download Styx: Shards of Darkness Offer",
+        "height": 1600,
+        "md5": "dfc288ad671d31428fcfc0f716ff9836",
+        "size": 1048486,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2026-01-05T11:20:52.086Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/6ccdf6a1518741f0842177137adc00b0/styx-shards-of-darkness-14fvm.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2026-01-30T20:29:20.711Z",
+    "mainGameItemList": [],
+    "namespace": "795fdebb6c6e497d98cee43057286743",
+    "releaseInfo": [
+      {
+        "appId": "e68e9229fd4a4a6c9a76038705ba6ae3",
+        "id": "eaeb39173e7248c2abb17c3fd12563ee",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "Styx: Shards of Darkness - Deluxe Edition",
+    "unsearchable": false
+  },
+  "sidecar": {
+    "config": {
+      "deploymentId": "d9be6b74ee3647009e8135c39a475b33"
+    },
+    "rev": 1
+  }
+}

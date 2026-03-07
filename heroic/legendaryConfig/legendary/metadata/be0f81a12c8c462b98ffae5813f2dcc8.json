@@ -1,0 +1,85 @@
+{
+  "app_name": "be0f81a12c8c462b98ffae5813f2dcc8",
+  "app_title": "The Darkside Detective A Fumble in the Dark",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "be0f81a12c8c462b98ffae5813f2dcc8",
+      "asset_id": "be0f81a12c8c462b98ffae5813f2dcc8",
+      "build_version": "1.39.307.4120",
+      "catalog_item_id": "07afaf4e35554a489d57f0553d3eb2e3",
+      "label_name": "Live-Windows",
+      "metadata": {
+        "installationPoolId": "118d34f35de14ca58bbdeb8846cef901"
+      },
+      "namespace": "87375f89fc4c4c7a8c681cf21febee06",
+      "sidecar_rev": 0
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "categories": [
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2021-09-29T20:11:03.584Z",
+    "customAttributes": {
+      "FolderName": {
+        "type": "STRING",
+        "value": "TheDarksideDetectiveSh5t8"
+      }
+    },
+    "description": "Join Detective McQueen as he puzzles his way through 6 cases, risking life and pixelated limb to solve the macabre mysteries that plague the poor town.",
+    "developer": "Akupara Games",
+    "developerId": "o-vzv8n7jse99sluj4vaa8522rh45cvg",
+    "endOfSupport": false,
+    "entitlementName": "07afaf4e35554a489d57f0553d3eb2e3",
+    "entitlementType": "EXECUTABLE",
+    "id": "07afaf4e35554a489d57f0553d3eb2e3",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "alt": "The Darkside Detective A Fumble in the Dark Offer",
+        "height": 1440,
+        "md5": "7acc3cafe8831ae88ee0499bbff7e12d",
+        "size": 316222,
+        "type": "DieselGameBox",
+        "uploadedDate": "2021-09-30T22:12:26.702Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/the-darkside-detective-a-fumble-in-the-dark-offer-1j6dv.jpg",
+        "width": 2560
+      },
+      {
+        "alt": "Download The Darkside Detective A Fumble in the Dark Offer",
+        "height": 1600,
+        "md5": "ab4f1b281a599d03934ef2c53d08660b",
+        "size": 173183,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2021-09-30T22:12:30.527Z",
+        "url": "https://cdn1.epicgames.com/spt-assets/0638bcc62d9f4ba2a53eb9093c54be31/download-the-darkside-detective-a-fumble-in-the-dark-offer-1dkz7.jpg",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2025-11-12T20:26:13.044Z",
+    "mainGameItemList": [],
+    "namespace": "87375f89fc4c4c7a8c681cf21febee06",
+    "releaseInfo": [
+      {
+        "appId": "be0f81a12c8c462b98ffae5813f2dcc8",
+        "id": "13284f59cf1249c19ec1ce3f765322e5",
+        "platform": [
+          "Windows",
+          "Win32",
+          "Mac"
+        ]
+      }
+    ],
+    "requiresSecureAccount": false,
+    "status": "ACTIVE",
+    "title": "The Darkside Detective A Fumble in the Dark",
+    "unsearchable": false
+  },
+  "sidecar": null
+}

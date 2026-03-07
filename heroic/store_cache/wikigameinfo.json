@@ -1,0 +1,71 @@
+{
+	"Sifu": {
+		"pcgamingwiki": {
+			"steamID": "2138710",
+			"howLongToBeatID": "89091",
+			"metacritic": {
+				"score": "79",
+				"urlid": "sifu"
+			},
+			"opencritic": {
+				"score": "81",
+				"urlid": "12705/sifu"
+			},
+			"igdb": {
+				"score": "78",
+				"urlid": "sifu"
+			},
+			"direct3DVersions": [
+				"11"
+			],
+			"genres": [
+				"Brawler"
+			],
+			"releaseDate": [
+				"Windows: February 8, 2022"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"mainStory": 8,
+			"mainExtra": 14,
+			"completionist": 22,
+			"gameId": 89091,
+			"gameName": "Sifu",
+			"gameImageUrl": "https://howlongtobeat.com/games/89091_Sifu.jpg",
+			"gameWebLink": "https://howlongtobeat.com/game/89091"
+		},
+		"gamesdb": {
+			"steamID": "2138710"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "platinum",
+			"steamDeckCatagory": 3
+		},
+		"umuId": "umu-2138710"
+	},
+	"__timestamp": {
+		"Sifu": "Fri Mar 06 2026 18:22:38 GMT+0530 (India Standard Time)",
+		"BLEED RUNNER": "Fri Mar 06 2026 19:04:17 GMT+0530 (India Standard Time)"
+	},
+	"BLEED RUNNER": {
+		"pcgamingwiki": null,
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"mainStory": 0,
+			"mainExtra": 0,
+			"completionist": 0,
+			"gameId": 160576,
+			"gameName": "Bleed Runner",
+			"gameImageUrl": "https://howlongtobeat.com/games/160576_Bleed_Runner.jpg",
+			"gameWebLink": "https://howlongtobeat.com/game/160576"
+		},
+		"gamesdb": {
+			"steamID": "2670280"
+		},
+		"steamInfo": {
+			"steamDeckCatagory": 0
+		},
+		"umuId": null
+	}
+}

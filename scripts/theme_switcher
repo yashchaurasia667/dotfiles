@@ -1,0 +1,15 @@
+#!/bin/bash 
+
+IMAGE="$1"
+
+wal -i "$IMAGE" -n
+
+killall -9 waybar
+waybar &
+
+swaync-client -R
+swaync-client -rs
+
+swww img "$IMAGE" --transition-type grow
+
+notify-send "Wallpaper and colorscheme changed to $IMAGE"
