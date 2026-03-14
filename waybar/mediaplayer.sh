@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+
 # ~/.config/waybar/scripts/mediaplayer.sh
 # Requires: playerctl
 
@@ -22,10 +23,10 @@ TITLE=$(playerctl --player="$PLAYER" metadata title 2>/dev/null)
 ALBUM=$(playerctl --player="$PLAYER" metadata album 2>/dev/null)
 
 # Truncate long titles for the bar
-MAX_LEN=40
+MAX_LEN=500
 DISPLAY="${ARTIST:+$ARTIST - }${TITLE}"
 if [ ${#DISPLAY} -gt $MAX_LEN ]; then
-    DISPLAY="${DISPLAY:0:$MAX_LEN}…"
+    DISPLAY="${DISPLAY:0:$MAX_LEN}"
 fi
 
 # Choose icon based on status

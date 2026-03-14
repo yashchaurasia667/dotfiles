@@ -12,7 +12,8 @@
   "modules-left": [
     "group/group-power",
     "sway/mode", 
-    "sway/workspaces", 
+    "sway/workspaces",
+    "hyprland/workspaces", 
     "sway/scratchpad"
   ],
   "modules-center": [
@@ -22,7 +23,9 @@
     "tray",
     "custom/notification",
     "network", 
-    "group/group-cpu", 
+//    "group/group-cpu", 
+    "temperature",
+    "cpu",
     "pulseaudio", 
     "battery", 
     "clock"
@@ -88,12 +91,12 @@
   "custom/quit": {
     "format": "󰗼",
     "tooltip": false,
-    "on-click": "swaymsg exit"
+    "on-click": "hyprctl dispatch exit"
   },
   "custom/lock": {
     "format": "󰍁",
     "tooltip": false,
-    "on-click": "swaylock"
+    "on-click": "hyprlock"
   },
   "custom/reboot": {
     "format": "󰜉",
@@ -116,17 +119,17 @@
   },
 
   "cpu": {
-    "interval": 10,
+    "interval": 5,
     "format": "{usage}% ",
     "tooltip": true,
     "max-length": 10,
     "states": {
-      "warning": 50,
+      "warning": 70,
       "critical": 80
     }
   },
   "temperature": {
-    "thermal-zone": 2,
+    "interval": 5,
     "critical-threshold": 90,
     "format-critical": "{temperatureC}°C ",
     "format": "{temperatureC}°C "
@@ -135,6 +138,24 @@
   "sway/mode": {
     "format": " {}",
     "max-length": 50
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "show-special": true,
+    "format-icons": {
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "4",
+      "special:special": ""
+    },
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "*": [1, 2, 3, 4]
+    }
   },
 
   "sway/workspaces": {
@@ -176,7 +197,7 @@
       "portable": "",
       "car": "",
       "default": ["", ""]
-    },
+    }
   },
 
   "network": {

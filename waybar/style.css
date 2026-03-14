@@ -43,7 +43,7 @@ tooltip label {
 #workspaces button:hover {
   background: @sunset-red; /* Uses @color1 */
 }
-#workspaces button.focused {
+#workspaces button.active, #workspaces button.focused{
   background: @autumn-orange; /* Uses @color3 */
   color: @bg-dark; /* Contrast fix for focused item */
 }

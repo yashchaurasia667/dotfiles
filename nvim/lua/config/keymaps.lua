@@ -2,8 +2,6 @@ vim.g.mapleader = " "
 
 local k = vim.keymap
 
-k.set("n", "<leader>pv", vim.cmd.Ex, { desc = "Go back to netrw" })
-
 k.set("n", "<leader>nh", ":nohl<CR>", {desc = "Clear search highlight" })
 
 k.set("n", "<leader>sv", "<C-w>v", { desc = "Split windows vertically" })
@@ -16,3 +14,4 @@ k.set("n", "<leader>tx", "<cmd>tabclose<CR>", { desc = "Close current tab" })
 k.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" })
 k.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" })
 k.set("n", "<leader>tf", "<cmd>tabnew<CR>", { desc = "Open current buffer in new tab" })
+
