@@ -155,7 +155,7 @@ bindsym $mod+L exec swaylock
     # You can "split" the current object of your focus with
     # $mod+b or $mod+v, for horizontal and vertical splits
     # respectively.
-    bindsym $mod+b splith
+    bindsym $mod+y splith
     bindsym $mod+v splitv
 
     # Switch the current container between different layout styles
@@ -234,8 +234,13 @@ exec swaync
 
 # Status Bar:
 bindsym $mod+slash exec "killall -9 waybar; waybar > /dev/null 2>&1"
-# bindsym $mod+b exec brave
+bindsym $mod+b exec brave
 exec "waybar > /dev/null 2>&1"
+
+# media control
+bindsym $mod+Control+Space exec "playerctl play-pause"
+bindsym $mod+Control+Left exec "playerctl previous"
+bindsym $mod+Control+Right exec "playerctl next"
 
 default_border pixel 4
 default_floating_border pixel 4

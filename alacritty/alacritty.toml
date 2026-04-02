@@ -1,3 +1,6 @@
+[general]
+live_config_reload = true
+import = ["colors.toml"]
 
 [colors]
 draw_bold_text_with_bright_colors = true
@@ -49,34 +52,9 @@ key = "F"
 mods = "Alt"
 
 [[keyboard.bindings]]
-key = "h"
-mode = "Vi"
-action = "Left"
-
-[[keyboard.bindings]]
-key = "n"
-mode = "Vi"
-action = "Down"
-
-[[keyboard.bindings]]
-key = "e"
-mode = "Vi"
-action = "Up"
-
-[[keyboard.bindings]]
-key = "i"
-mode = "Vi"
-action = "Right"
-
-[[keyboard.bindings]]
 action = "ToggleViMode" 
 key = "Space"
 mods = "Control|Shift"
-
-[[keyboard.bindings]]
-key = "u"
-mode = "Vi"
-action = "ToggleViMode"
 
 [scrolling]
 history = 50000
@@ -93,7 +71,3 @@ opacity = 0.8
 [window.padding]
 x = 5
 y = 5
-
-[general]
-live_config_reload = true
-import = ["/home/yash/.cache/wal/colors-alacritty.toml"]

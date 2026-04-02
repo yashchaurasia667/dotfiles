@@ -23,18 +23,12 @@
     "tray",
     "custom/notification",
     "network", 
-//    "group/group-cpu", 
     "temperature",
     "cpu",
-    "pulseaudio", 
+    "wireplumber", 
     "battery", 
     "clock"
   ],
-
-  "tray": {
-    "icon-size": 10,
-    "spacing": 10
-  },
 
   "custom/notification": {
     "tooltip": false,
@@ -104,20 +98,6 @@
     "on-click": "reboot"
   },
 
-  "group/group-cpu": {
-
-    "orientation": "horizontal",
-    "drawer": {
-      "transition-duration": 300,
-      "children-class": "not-cpu",
-      "transition-left-to-right": false
-    },
-    "modules": [
-      "cpu",
-      "temperature"
-    ]
-  },
-
   "cpu": {
     "interval": 5,
     "format": "{usage}% ",
@@ -185,7 +165,7 @@
     "tooltip-format": "{app}: {title}"
   },
 
-   "pulseaudio": {
+   "wireplumber": {
     "format": "{volume}% {icon}",
     "format-muted": "",
     "format-icons": {
@@ -225,6 +205,7 @@
 
   "tray": {
     "spacing": 10,
+    "iconsize": 10,
     "icons": {
       "blueman": "bluetooth"
     }

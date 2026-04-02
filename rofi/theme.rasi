@@ -1,63 +1,70 @@
+@import "colors.rasi"
+
 * {
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
+    background-color: transparent;
+    
+    bg: @surface;
+    fg: @on-surface;
+    accent: @primary;
+    on-accent: @on-primary;
 
-  bg: @background;
-  fg: @foreground;
-  fg-alt: @foreground;
-
-  border: 0;
-  margin: 0;
-  padding: 0;
-  spacing: 0;
+    normal-background:           @bg;
+    normal-foreground:           @fg;
+    alternate-normal-background: @bg; 
+    alternate-normal-foreground: @fg;
+    selected-normal-background:  @accent;
+    selected-normal-foreground:  @on-accent;
 }
-
 
 window {
-  width: 35%;
-  border-radius: 20px;
-}
-
-element {
-  padding: 12;
-  margin: 5 0;
-  text-color: @fg-alt;
-}
-
-element selected {
-  text-color: @fg;
-  border-radius: 20px;
-} 
-
-element-text {
-  background-color: inherit;
-  text-color: inherit;
-  vertical-align: 0.5;  
-}
-
-element-icon {
-  size: 35;
-}
-
-inputbar {
-  children: [prompt, entry];
-}
-
-listview {
-  background-color: @bg;
-  columns: 1;
-  lines: 5;
+    width: 35%;
+    border-radius: 12px;
+    background-color: @bg;
+    border: 2px;
+    border-color: @outline-variant;
 }
 
 mainbox {
-  background-color: @bg;
-  children: [inputbar, listview];
+    children: [inputbar, listview];
+    padding: 10px;
+}
+
+inputbar {
+    children: [prompt, entry];
+    margin: 0 0 10px 0;
 }
 
 prompt {
-  background-color: @bg;
-  enabled: true;
-  padding: 12 0;
+    text-color: @fg;
+    padding: 12px;
+}
+
+entry {
+    placeholder: "Search...";
+    placeholder-color: @outline;
+    text-color: @fg;
+    padding: 12px;
+}
+
+listview {
+    columns: 1;
+    lines: 5;
+    fixed-height: false;
+}
+
+element {
+    padding: 8px 12px;
+    margin: 2px 0;
+    border-radius: 999999px;
+    spacing: 12px;
+}
+
+element-text, element-icon {
+    background-color: inherit;
+    text-color:       inherit;
+    vertical-align:   0.5;
+}
+
+element-icon {
+    size: 35;
 }

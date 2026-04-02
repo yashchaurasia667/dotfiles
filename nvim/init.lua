@@ -1,4 +1,3 @@
-require("config.colemak")
 require("config.lazy")
 
 vim.cmd("set expandtab")
@@ -21,3 +20,16 @@ vim.cmd("set lazyredraw")
 vim.cmd("set showmatch")
 vim.cmd("set laststatus=2")
 vim.cmd("set ruler")
+
+vim.g.clipboard = {
+  name = "wl-clipboard",
+  copy = {
+    ["+"] = "wl-copy",
+  },
+  paste = {
+    ["+"] = "wl-paste --no-newline",
+  },
+  cache_enabled = 0,
+}
+-- vim.opt.clipboard = "unnamedplus"
+vim.keymap.set({"n", "v"}, "<leader>y", '"+y', {desc = "Yank to clipboard"})

@@ -1,16 +1,4 @@
-/* Import Pywal colors (Relative path from ~/.config/waybar/) */
-@import "../../.cache/wal/colors-waybar.css";
-
-/* --- Pywal Variable Mapping --- */
-/* We map your old variable names to the imported Pywal colors 
-   so the rest of the file logic stays the same. */
-
-@define-color bg-dark @background;       /* Main background */
-@define-color autumn-orange @color3;     /* Accent 1 (Usually Yellow/Orange in Wal) */
-@define-color sunset-red @color1;        /* Critical/Red */
-@define-color golden-hour @color2;       /* Active/Highlight */
-@define-color mist-white @foreground;    /* Text */
-@define-color shadow-black @color0;
+@import "colors.css";
 
 * {
   border: none;
@@ -21,44 +9,45 @@
 }
 
 window#waybar {
-  background: transparent; /* Or use @background if you want a solid bar */
-  color: @mist-white;
+  background: transparent;
+  color: @on_surface;
 }
 
 tooltip {
-  background: @bg-dark;
-  border: 1px solid @color4; /* Replaced static rgba border with a theme color */
+  background: @surface;
+  border: 1px solid @outline;
 }
+
 tooltip label {
-  color: @mist-white;
+  color: @on_surface;
 }
 
 #workspaces {
-  background: @bg-dark;
-}
-#workspaces button {
-  padding: 0 20px;
-  color: @mist-white;
-}
-#workspaces button:hover {
-  background: @sunset-red; /* Uses @color1 */
-}
-#workspaces button.active, #workspaces button.focused{
-  background: @autumn-orange; /* Uses @color3 */
-  color: @bg-dark; /* Contrast fix for focused item */
+  background: @surface;
 }
 
-.modules-right {
+#workspaces button {
+  padding: 0 20px;
+  color: @on_surface_variant;
+}
+
+#workspaces button:hover {
+  background: @inverse_primary;
+}
+
+#workspaces button.active, #workspaces button.focused {
+  background: @primary; 
+  color: @on_primary;
 }
 
 #mode, #clock, #battery {
   padding: 0 10px;
-  background: @autumn-orange;
-  color: @bg-dark; /* Ensure text is readable on colored background */
+  background: @primary;
+  color: @on_primary;
 }
 
 #clock, #battery {
-  background: @autumn-orange;
+  background: @primary;
   font-weight: 700;
 }
 
@@ -67,25 +56,25 @@ tooltip label {
 }
 
 #mode {
-  background: @color8; /* Muted gray from Pywal */
-  border-bottom: 3px solid @mist-white;
+  background: @secondary;
+  border-bottom: 3px solid @on_surface;
 }
 
 #battery.charging {
-  color: @bg-dark;
-  background-color: @golden-hour; /* Uses @color2 (Greenish usually) */
+  color: @on_primary_container;
+  background-color: @primary_container;
 }
 
 @keyframes blink {
   to {
-    background-color: @mist-white;
-    color: @shadow-black;
+    background-color: @on_surface;
+    color: @surface;
   }
 }
 
 #battery.warning:not(.charging) {
-  background: @sunset-red;
-  color: @mist-white;
+  background: @error;
+  color: @on_error;
   animation-name: blink;
   animation-duration: 0.5s;
   animation-timing-function: steps(12);
@@ -93,44 +82,44 @@ tooltip label {
   animation-direction: alternate;
 }
 
-#pulseaudio {
-  background: @bg-dark;
-  color: @mist-white;
+#wireplumber, #pulseaudio {
+  background: @surface;
+  color: @on_surface;
   padding: 0 15px;
 }
 
 #network {
-  background: @sunset-red;
-  color: @mist-white;
+  background: @primary;
+  color: @on_primary;
   padding: 0 8px;
   padding-right: 16px;
 }
 
 #cpu {
-  background-color: @bg-dark;
-  color: @mist-white;
+  background-color: @surface;
+  color: @on_surface;
   padding: 0 10px;
   transition: background-color 0.5s ease-in-out;
 }
 
 #cpu.warning {
-  background-color: @autumn-orange;
-  color: @bg-dark;
+  background-color: @secondary_container;
+  color: @on_secondary_container;
 }
 
 #cpu.critical {
-  background-color: @sunset-red;
-  color: @mist-white;
+  background-color: @error;
+  color: @on_error;
 }
 
 #temperature {
-  background: @bg-dark;
-  color: @mist-white;
+  background: @surface;
+  color: @on_surface;
   padding: 0 10px;
 }
 
 #group-power {
-  background: @bg-dark;
+  background: @surface;
   padding-right: 5px;
 }
 
@@ -139,18 +128,19 @@ tooltip label {
 }
 
 #custom-media {
-  background: @bg-dark;
+  background: @surface;
   padding: 0 10px;
+  border: 2px solid @primary;
   border-radius: 9999px;
   transition: all 0.2s ease;
 }
 
 #custom-media.playing {
-  color: @color4; /* Media playing accent */
+  color: @primary;
 }
 
 #custom-media.paused {
-  color: @color8; /* Muted color for paused */
+  color: @error;
   font-style: italic;
 }
 
@@ -164,5 +154,7 @@ tooltip label {
 }
 
 #tray {
-  margin-right: 10px;
+  border-radius: 9999px;
+  background: @surface;
+  padding: 0 15px;
 }

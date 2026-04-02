@@ -69,7 +69,11 @@ alias ll='ls -la --color'
 alias c='clear'
 alias stuff='cd /home/yash/Documents/Stuff'
 alias skl='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia java -jar /usr/bin/SKlauncher-3.2.18.jar'
-alias uwlpr='/home/yash/.config/scripts/theme_switcher'
+alias start_xng='cd /home/yash/.config/searxng && docker run --name searxng -d -p 8888:8080 -v "./config/:etc/searxng/" -v ".data:/vaar/cache/searxng/" docker.io/searxng/searxng:latest'
+alias npd='npm run dev'
+alias dnvim='DISPLAY= nvim'
+# alias uwlpr='/home/yash/.config/scripts/theme_switcher'
+alias uwlpr() { /home/yash/.config/scripts/theme_switcher "$@" }
 
 # Shell integrations
 eval "$(fzf --zsh)"
@@ -77,6 +81,13 @@ eval "$(zoxide init --cmd cd zsh)"
 eval "$(starship init zsh)"
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
+# vulkan setup
+export VULKAN_SDK=/opt/vulkan/1.4.341.1/x86_64
+export PATH=$VULKAN_SDK/bin:$PATH
+export LD_LIBRARY_PATH=$VULKAN_SDK/lib${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}
+export VK_ADD_LAYER_PATH=$VULKAN_SDK/share/vulkan/explicit_layer.d
+export PKG_CONFIG_PATH=$VULKAN_SDK/share/pkgconfig:$VULKAN_SDK/lib/pkgconfig${PKG_CONFIG_PATH:+:$PKG_CONFIG_PATH}
+
 # pywall theming
-(cat ~/.cache/wal/sequences &)
-source ~/.cache/wal/colors-tty.sh
+# (cat ~/.cache/wal/sequences &)
+# source ~/.cache/wal/colors-tty.sh

@@ -1,5 +1,4 @@
 vim.g.mapleader = " "
-
 local k = vim.keymap
 
 k.set("n", "<leader>nh", ":nohl<CR>", {desc = "Clear search highlight" })

@@ -1,55 +1,154 @@
-@import '../../.cache/wal/colors-waybar.css';
-@import 'themes/nova-dark/notifications.css';
-@import 'themes/nova-dark/central_control.css';
+@import "colors.css";
+@import "themes/nova-dark/notifications.css";
+@import "themes/nova-dark/central_control.css";
 
-/* --- Volume and Brightness Sliders --- */
+* {
+  font-family: "JetBrains Mono Nerd Font", sans-serif;
+  transition: 200ms;
+}
 
+/* --- Control Center Main Window --- */
+.control-center {
+  background-color: @background;
+  color: @on_surface;
+  border-radius: 12px;
+  border: 1px solid @outline_variant;
+}
+
+.control-center-list {
+  background: transparent;
+}
+
+/* --- Title Widget --- */
+.widget-title {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: @primary;
+}
+
+.widget-title > button {
+  background: @surface_container;
+  color: @on_surface;
+  padding: 5px;
+  border-radius: 8px;
+}
+
+.widget-title > button:hover {
+  background: @primary;
+  color: @on_primary;
+}
+
+/* --- DND Widget --- */
+.widget-dnd {
+  margin: 10px;
+  color: @on_surface;
+}
+
+.widget-dnd > switch {
+  border-radius: 20px;
+  background: @surface_container_highest;
+}
+
+.widget-dnd > switch:checked {
+  background: @primary;
+}
+
+.widget-dnd > switch slider {
+  background: @on_background;
+  border-radius: 20px;
+}
+
+/* --- Buttons Grid (Quick Settings) --- */
+.widget-buttons-grid {
+  background: @secondary_container;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button {
+  border-radius: 12px;
+  padding: 10px;
+  color: @on_surface;
+}
+
+
+.widget-buttons-grid > flowbox > flowboxchild > button:hover {
+  background: @primary_container;
+  color: @primary;
+}
+
+.widget-buttons-grid > flowbox > flowboxchild > button:checked {
+  background: @primary;
+  color: @on_primary;
+}
+
+/* --- Sliders (Volume & Backlight) --- */
 .widget-volume,
 .widget-backlight {
-  background-color: @background;
-  padding: 10px;
+  background: @surface_container_low;
   margin: 5px 10px;
-  border-radius: 8px;
-  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
 }
 
-/* The Label (Icon) */
-.widget-volume > box > label,
-.widget-backlight > box > label {
-  color: @foreground;
-  padding-right: 10px;
-}
-
-/* The Slider Track (Empty part) */
 .widget-volume trough,
 .widget-backlight trough {
-  background: @color8;  /* Often a dark grey/dim color in Pywal */
-  border-radius: 12px;
-  min-height: 8px;      /* Force a minimum height */
+  background: @surface_variant;
+  min-height: 10px;
+  border-radius: 10px;
 }
 
-/* The Slider Highlight (Filled part) - VOLUME */
 .widget-volume highlight {
-  background: @color4;  /* Uses Pywal's Blue */
-  border-radius: 12px;
-  min-height: 8px;
+  background: @primary;
 }
 
-/* The Slider Highlight (Filled part) - BRIGHTNESS */
 .widget-backlight highlight {
-  background: @color3; /* Uses Pywal's Yellow */
+  background: @tertiary;
+}
+
+/* --- MPRIS (Media Player) --- */
+.widget-mpris {
+  background: @surface_container;
+  margin: 10px;
+  padding: 10px;
   border-radius: 12px;
-  min-height: 8px;
 }
 
-/* The Slider Handle (The little circle you drag) */
-.widget-volume slider,
-.widget-backlight slider {
-  background: @foreground;
-  box-shadow: none;
-  border-radius: 50%;
-  min-height: 16px;
-  min-width: 16px;
-  margin: -4px;
+.widget-mpris-player {
+  padding: 5px;
 }
 
+.widget-mpris-title {
+  color: @primary;
+  font-weight: bold;
+}
+
+.widget-mpris-subtitle {
+  color: @on_surface_variant;
+}
+
+/* --- Notifications --- */
+.notification {
+  background: @surface_container;
+  border-radius: 12px;
+  border: 2px solid @primary;
+}
+
+.notification-content {
+  background: transparent;
+}
+
+.notification-default-action:hover {
+  background: @surface_container_highest;
+}
+
+.critical {
+  border: 2px solid @error;
+}
+
+.notification-title {
+  color: @primary;
+  font-weight: bold;
+}
+
+.notification-body {
+  color: @on_surface;
+}

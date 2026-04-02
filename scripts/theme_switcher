@@ -1,16 +1,29 @@
-#!/bin/bash 
+#!/bin/env bash 
+
+# Check if an image path was provided
+if [ -z "$1" ]; then
+    echo "Usage: ./wallpaper.sh /path/to/image.png"
+    exit 1
+fi
 
 IMAGE="$1"
 
-wal -i "$IMAGE" -n
+# Generate colorscheme (Matugen)
+matugen image "$IMAGE"
 
-killall -9 waybar
-waybar > /dev/null 2>&1 &
+# Restart Waybar
+pkill waybar
+(waybar > /dev/null 2>&1 &)
 
+# Refresh SwayNotificationCenter
 swaync-client -R
 swaync-client -rs
 
+# Update Wallpaper with swww
 swww img "$IMAGE" --transition-type grow
+
+# Update global wallpaper reference
 cp "$IMAGE" /opt/wal.png
 
-notify-send "Wallpaper and colorscheme changed to $IMAGE"
+# Notify
+notify-send "System Theme Updated" "Wallpaper changed to $(basename "$IMAGE")" -i "$IMAGE"
