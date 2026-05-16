@@ -11,10 +11,8 @@
 
   "modules-left": [
     "group/group-power",
-    "sway/mode", 
-    "sway/workspaces",
     "hyprland/workspaces", 
-    "sway/scratchpad"
+    "hyprland/submap"
   ],
   "modules-center": [
     "custom/media"
@@ -54,7 +52,7 @@
   "custom/media": {
     "format": "{}",
     "return-type": "json",
-    "exec": "$HOME/.config/waybar/mediaplayer.sh",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.sh",
     "interval": 2,
     "on-click": "playerctl play-pause",
     "on-scroll-up": "playerctl next",
@@ -80,7 +78,7 @@
   "custom/power": {
     "format": "",
     "tooltip": false,
-    "on-click": "shutdown now"
+    "on-click": "wlogout"
   },
   "custom/quit": {
     "format": "󰗼",
@@ -99,7 +97,7 @@
   },
 
   "cpu": {
-    "interval": 5,
+    "interval": 1,
     "format": "{usage}% ",
     "tooltip": true,
     "max-length": 10,
@@ -109,10 +107,16 @@
     }
   },
   "temperature": {
-    "interval": 5,
-    "critical-threshold": 90,
+    "interval": 1,
+    "critical-threshold": 85,
     "format-critical": "{temperatureC}°C ",
     "format": "{temperatureC}°C "
+  },
+
+  "hyprland/submap": {
+    "format": "{}",
+    "max-length": 50,
+    "tooltip": false
   },
 
   "sway/mode": {
@@ -137,35 +141,7 @@
       "*": [1, 2, 3, 4]
     }
   },
-
-  "sway/workspaces": {
-    "format": "{icon}",
-    "on-click": "activate",
-    "format-icons": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "5"
-    },
-    "sort-by-number": true,
-    "persistent-workspaces": {
-      "1": "",
-      "2": "",
-      "3": "",
-      "4": ""
-    }
-  },
-
-  "sway/scratchpad": {
-    "format": "{icon} {count}",
-    "show-empty": false,
-    "format-icons": ["", ""],
-    "tooltip": true,
-    "tooltip-format": "{app}: {title}"
-  },
-
-   "wireplumber": {
+  "wireplumber": {
     "format": "{volume}% {icon}",
     "format-muted": "",
     "format-icons": {
@@ -181,7 +157,7 @@
   },
 
   "network": {
-    "interface": "wlp0s20f3",
+    "interface": "wlan0",
     "format": "{ifname}",
     "format-wifi": "",
     "format-ethernet": "󰊗",

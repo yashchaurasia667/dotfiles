@@ -55,7 +55,7 @@ listview {
 element {
     padding: 8px 12px;
     margin: 2px 0;
-    border-radius: 999999px;
+    border-radius: 12px;
     spacing: 12px;
 }
 

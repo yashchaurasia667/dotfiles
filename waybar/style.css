@@ -27,7 +27,7 @@ tooltip label {
 }
 
 #workspaces button {
-  padding: 0 20px;
+  padding: 0 25px;
   color: @on_surface_variant;
 }
 
@@ -140,7 +140,7 @@ tooltip label {
 }
 
 #custom-media.paused {
-  color: @error;
+  color: @tertiary;
   font-style: italic;
 }
 
@@ -151,6 +151,7 @@ tooltip label {
 #custom-notification {
   font-size: 28px;
   padding-right: 10px;
+  color: @primary;
 }
 
 #tray {

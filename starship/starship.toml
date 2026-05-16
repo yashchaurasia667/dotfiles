@@ -10,7 +10,8 @@ $fill\
 $nodejs\
 $cmd_duration $jobs $time\
 $line_break\
-$character"""
+$character
+"""
 
 [nodejs]
 format = "[$symbol($version )]($style)"

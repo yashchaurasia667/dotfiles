@@ -1,5 +1,7 @@
 require("config.lazy")
+require("config.keymaps")
 
+vim.cmd("let g:netrw_liststyle = 3")
 vim.cmd("set expandtab")
 vim.cmd("set tabstop=2")
 vim.cmd("set softtabstop=2")

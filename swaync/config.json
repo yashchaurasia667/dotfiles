@@ -63,12 +63,12 @@
     "buttons-grid": {
       "actions": [
         {
-          "label": "",
+          "label": "󰟎",
           "command": "amixer set Master toggle",
           "type": "toggle"
         },
         {
-          "label": "",
+          "label": "",
           "command": "amixer set Capture toggle",
           "type": "toggle"
         },

@@ -1,7 +1,7 @@
 vim.g.mapleader = " "
 local k = vim.keymap
 
-k.set("n", "<leader>nh", ":nohl<CR>", {desc = "Clear search highlight" })
+k.set("n", "<leader>hl", ":nohl<CR>", {desc = "Clear search highlight" })
 
 k.set("n", "<leader>sv", "<C-w>v", { desc = "Split windows vertically" })
 k.set("n", "<leader>sh", "<C-w>s", { desc = "Split windows horizontally" })

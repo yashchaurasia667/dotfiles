@@ -1,0 +1,27 @@
+[opener]
+image = [
+  { run = 'eog "$@"', desc = "eog", block = false, orphan = true },
+]
+text = [
+  { run = 'nvim "$@"', desc = "nvim", block = true },
+]
+json = [
+  { run = 'nvim "$@"', desc = "nvim", block = true },
+]
+video = [
+  { run = 'vlc "$@"', desc = "vlc", block = false, orphan = true },
+]
+pdf = [
+  { run = 'okular "$@"', desc = "okular", block = false, orphan = true },
+]
+exe = [
+  { run = 'wine "$@"', desc = "wine", block = true },
+]
+
+[open]
+rules = [
+  { mime = "image/*", use = "image" },
+  { mime = "text/*", use = "text" },
+  { mime = "video/*", use = "video" },
+  { mime = "application/pdf", use = "pdf" },
+]
