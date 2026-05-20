@@ -23,15 +23,22 @@ vim.cmd("set showmatch")
 vim.cmd("set laststatus=2")
 vim.cmd("set ruler")
 
+vim.filetype.add({
+	extension = {
+		jsx = "javascriptreact",
+		tsx = "typescriptreact",
+	},
+})
+
 vim.g.clipboard = {
-  name = "wl-clipboard",
-  copy = {
-    ["+"] = "wl-copy",
-  },
-  paste = {
-    ["+"] = "wl-paste --no-newline",
-  },
-  cache_enabled = 0,
+	name = "wl-clipboard",
+	copy = {
+		["+"] = "wl-copy",
+	},
+	paste = {
+		["+"] = "wl-paste --no-newline",
+	},
+	cache_enabled = 0,
 }
 -- vim.opt.clipboard = "unnamedplus"
-vim.keymap.set({"n", "v"}, "<leader>y", '"+y', {desc = "Yank to clipboard"})
+vim.keymap.set({ "n", "v" }, "<leader>y", '"+y', { desc = "Yank to clipboard" })
