@@ -19,6 +19,6 @@ directions = {
   right = "l",
 }
 
-fileManager = "ghostty -e yazi > /dev/null 2&>1"
+fileManager = "kitty -e yazi > /dev/null 2&>1"
 
-terminal = "alacritty"
+terminal = "kitty"

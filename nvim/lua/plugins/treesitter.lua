@@ -3,23 +3,43 @@ return {
 	lazy = false,
 	build = ":TSUpdate",
 	config = function()
-		require("nvim-treesitter").setup({
+		local configs = require("nvim-treesitter")
+		configs.setup({
 			sync_install = false,
 			auto_install = true,
 			indent = { enable = true },
 			highlight = { enable = true },
-			ensure_installed = {
-				"javascript",
-				"typescript",
-				"tsx",
-				"html",
-				"css",
-				"json",
-				"cpp",
+			ensure_insalled = {
+				"bash",
 				"c",
+				"cmake",
+				"cpp",
+				"css",
+				"glsl",
+				"html",
+				"javascript",
+				"json",
 				"lua",
-				"vim",
+				"markdown",
+				"python",
+				"typescript",
 			},
 		})
+
+		vim.api.nvim_create_autocmd("FileType", {
+			pattern = { "<filetype>" },
+			callback = function()
+				vim.treesitter.start()
+			end,
+		})
+
+		-- vim.wo[0][0].foldexpr = "v:lua.vim.treesitter.foldexpr()"
+		-- vim.wo[0][0].foldmethod = "expr"
+		vim.opt.foldmethod = "expr"
+		vim.opt.foldexpr = "v:lua.vim.treesitter.foldexpr()"
+
+		vim.opt.foldlevel = 99
+		vim.opt.foldlevelstart = 99
+		vim.opt.foldenable = true
 	end,
 }

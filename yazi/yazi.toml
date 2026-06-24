@@ -9,7 +9,7 @@ json = [
   { run = 'nvim "$@"', desc = "nvim", block = true },
 ]
 video = [
-  { run = 'vlc "$@"', desc = "vlc", block = false, orphan = true },
+  { run = 'mpv "$@"', desc = "mpv", block = false, orphan = true },
 ]
 pdf = [
   { run = 'okular "$@"', desc = "okular", block = false, orphan = true },

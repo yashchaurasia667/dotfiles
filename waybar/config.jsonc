@@ -10,7 +10,8 @@
   "spacing": 6,
 
   "modules-left": [
-    "group/group-power",
+    "custom/power",
+    "niri/workspaces",
     "hyprland/workspaces", 
     "hyprland/submap"
   ],
@@ -129,18 +130,18 @@
     "on-click": "activate",
     "show-special": true,
     "format-icons": {
-      "1": "1",
-      "2": "2",
-      "3": "3",
-      "4": "4",
-      "5": "4",
       "special:special": ""
     },
     "sort-by-number": true,
     "persistent-workspaces": {
-      "*": [1, 2, 3, 4]
+      "*": 4
     }
   },
+
+  "niri/workspaces": {
+    "format": "{icon}"
+  },
+
   "wireplumber": {
     "format": "{volume}% {icon}",
     "format-muted": "",

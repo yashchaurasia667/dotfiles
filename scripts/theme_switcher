@@ -20,7 +20,7 @@ swaync-client -R
 swaync-client -rs
 
 # Update Wallpaper with swww
-swww img "$IMAGE" --transition-type grow
+awww img "$IMAGE" --transition-type random
 
 # Update global wallpaper reference
 cp "$IMAGE" /opt/wal.png

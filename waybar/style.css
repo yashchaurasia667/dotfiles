@@ -118,6 +118,12 @@ tooltip label {
   padding: 0 10px;
 }
 
+#custom-power {
+  background: @surface;
+  padding: 0 15px;
+  padding-right: 20px;
+}
+
 #group-power {
   background: @surface;
   padding-right: 5px;
@@ -151,7 +157,7 @@ tooltip label {
 #custom-notification {
   font-size: 28px;
   padding-right: 10px;
-  color: @primary;
+  color: @surface;
 }
 
 #tray {
