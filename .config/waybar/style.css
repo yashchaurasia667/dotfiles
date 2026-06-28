@@ -1,0 +1,167 @@
+@import "colors.css";
+
+* {
+  border: none;
+  border-radius: 10px;
+  font-family: "JetBrains Mono Nerd Font", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  min-height: 0;
+}
+
+window#waybar {
+  background: transparent;
+  color: @on_surface;
+}
+
+tooltip {
+  background: @surface;
+  border: 1px solid @outline;
+}
+
+tooltip label {
+  color: @on_surface;
+}
+
+#workspaces {
+  background: @surface;
+}
+
+#workspaces button {
+  padding: 0 25px;
+  color: @on_surface_variant;
+}
+
+#workspaces button:hover {
+  background: @inverse_primary;
+}
+
+#workspaces button.active, #workspaces button.focused {
+  background: @primary; 
+  color: @on_primary;
+}
+
+#mode, #clock, #battery {
+  padding: 0 10px;
+  background: @primary;
+  color: @on_primary;
+}
+
+#clock, #battery {
+  background: @primary;
+  font-weight: 700;
+}
+
+#battery {
+  padding-right: 20px;
+}
+
+#mode {
+  background: @secondary;
+  border-bottom: 3px solid @on_surface;
+}
+
+#battery.charging {
+  color: @on_primary_container;
+  background-color: @primary_container;
+}
+
+@keyframes blink {
+  to {
+    background-color: @on_surface;
+    color: @surface;
+  }
+}
+
+#battery.warning:not(.charging) {
+  background: @error;
+  color: @on_error;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(12);
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#wireplumber, #pulseaudio {
+  background: @surface;
+  color: @on_surface;
+  padding: 0 15px;
+}
+
+#network {
+  background: @primary;
+  color: @on_primary;
+  padding: 0 8px;
+  padding-right: 16px;
+}
+
+#cpu {
+  background-color: @surface;
+  color: @on_surface;
+  padding: 0 10px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+#cpu.warning {
+  background-color: @secondary_container;
+  color: @on_secondary_container;
+}
+
+#cpu.critical {
+  background-color: @error;
+  color: @on_error;
+}
+
+#temperature {
+  background: @surface;
+  color: @on_surface;
+  padding: 0 10px;
+}
+
+#custom-power {
+  background: @surface;
+  padding: 0 15px;
+  padding-right: 20px;
+}
+
+#group-power {
+  background: @surface;
+  padding-right: 5px;
+}
+
+#group-power * {
+  margin: 0 10px;
+}
+
+#custom-media {
+  background: @surface;
+  padding: 0 10px;
+  border: 2px solid @primary;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+}
+
+#custom-media.playing {
+  color: @primary;
+}
+
+#custom-media.paused {
+  color: @tertiary;
+  font-style: italic;
+}
+
+#custom-media.stopped {
+  color: transparent;
+}
+
+#custom-notification {
+  font-size: 28px;
+  padding-right: 10px;
+  color: @on_surface;
+}
+
+#tray {
+  border-radius: 9999px;
+  background: @surface;
+  padding: 0 15px;
+}

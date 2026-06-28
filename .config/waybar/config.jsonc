@@ -1,0 +1,190 @@
+{
+  "layer": "bottom",
+  "position": "top",
+  "height": 35,
+
+  "margin-top": 10,
+  "margin-bottom": 0,
+  "margin-left": 5,
+  "margin-right": 5,
+  "spacing": 6,
+
+  "modules-left": [
+    "custom/power",
+    "niri/workspaces",
+    "hyprland/workspaces", 
+    "hyprland/submap"
+  ],
+  "modules-center": [
+    "custom/media"
+  ],
+  "modules-right": [
+    "tray",
+    "custom/notification",
+    "network", 
+    "temperature",
+    "cpu",
+    "wireplumber", 
+    "battery", 
+    "clock"
+  ],
+
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "󰍝<span foreground='red'><sup></sup></span>",
+      "none": "󰍝",
+      "dnd-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": "󰍝<span foreground='red'><sup></sup></span>",
+      "inhibited-none": "󰍝",
+      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": ""
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+
+  "custom/media": {
+    "format": "{}",
+    "return-type": "json",
+    "exec": "$HOME/.config/waybar/scripts/mediaplayer.sh",
+    "interval": 2,
+    "on-click": "playerctl play-pause",
+    "on-scroll-up": "playerctl next",
+    "on-scroll-down": "playerctl previous",
+    "max-length": 50
+  },
+
+ "group/group-power": {
+    "orientation": "horizontal",
+    "drawer": {
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": true
+    },
+    "modules": [
+      "custom/power",
+      "custom/quit",
+      "custom/lock",
+      "custom/reboot"
+    ]
+  },
+
+  "custom/power": {
+    "format": "",
+    "tooltip": false,
+    "on-click": "wlogout"
+  },
+  "custom/quit": {
+    "format": "󰗼",
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit"
+  },
+  "custom/lock": {
+    "format": "󰍁",
+    "tooltip": false,
+    "on-click": "hyprlock"
+  },
+  "custom/reboot": {
+    "format": "󰜉",
+    "tooltip": false,
+    "on-click": "reboot"
+  },
+
+  "cpu": {
+    "interval": 1,
+    "format": "{usage}% ",
+    "tooltip": true,
+    "max-length": 10,
+    "states": {
+      "warning": 70,
+      "critical": 80
+    }
+  },
+  "temperature": {
+    "interval": 1,
+    "critical-threshold": 85,
+    "format-critical": "{temperatureC}°C ",
+    "format": "{temperatureC}°C "
+  },
+
+  "hyprland/submap": {
+    "format": "{}",
+    "max-length": 50,
+    "tooltip": false
+  },
+
+  "sway/mode": {
+    "format": " {}",
+    "max-length": 50
+  },
+
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "on-click": "activate",
+    "show-special": true,
+    "format-icons": {
+      "special:special": ""
+    },
+    "sort-by-number": true,
+    "persistent-workspaces": {
+      "*": 4
+    }
+  },
+
+  "niri/workspaces": {
+    "format": "{icon}"
+  },
+
+  "wireplumber": {
+    "format": "{volume}% {icon}",
+    "format-muted": "",
+    "format-icons": {
+      "headphone": "",
+      "hands-free": "",
+      "headset": "",
+      "phone": "",
+      "phone-muted": "",
+      "portable": "",
+      "car": "",
+      "default": ["", ""]
+    }
+  },
+
+  "network": {
+    "interface": "wlan0",
+    "format": "{ifname}",
+    "format-wifi": "",
+    "format-ethernet": "󰊗",
+    "format-disconnected": "󰖪",
+    "tooltip-format": "{ifname} via {gwaddr} 󰊗",
+    "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+    "tooltip-format-ethernet": "{ifname} ",
+    "tooltip-format-disconnected": "Disconnected",
+    "max-length": 50
+  },
+
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+
+  "clock": {
+    "format-alt": "{:%a, %d. %b  %H:%M}",
+    "tooltip": false
+  },
+
+  "tray": {
+    "spacing": 10,
+    "iconsize": 10,
+    "icons": {
+      "blueman": "bluetooth"
+    }
+  }
+}

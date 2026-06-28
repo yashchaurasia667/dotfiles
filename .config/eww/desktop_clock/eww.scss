@@ -1,0 +1,39 @@
+@import 'colors.scss';
+
+// Kills default GTK styling
+* {
+  all: unset;
+  font-family: "JetBrains Mono Nerd Font", monospace;
+}
+
+.main-box, .clock-box {
+  background-color: transparent;
+}
+
+.hour-text {
+  font-size: 160px;
+  font-weight: 900;
+  color: $tertiary;
+  text-shadow: 0px 15px 25px rgba(0, 0, 0, 0.6); 
+}
+
+.minute-text {
+  font-size: 160px;
+  font-weight: 900;
+  color: $surface_bright;
+  margin-top: 215px; 
+  margin-left: 50px;
+}
+
+.day-text {
+  font-size: 36px;
+  font-weight: 800;
+  color: $tertiary;
+}
+
+.date-text {
+  font-size: 22px;
+  font-weight: 500;
+  color: $on_surface_variant;
+  margin-top: 0px;
+}

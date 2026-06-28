@@ -1,0 +1,146 @@
+theme = "Matugen"
+
+confirm-close-surface = false
+keybind = ctrl+w=close_surface
+keybind = ctrl+shift+l=new_split:right
+keybind = ctrl+shift+j=new_split:down
+keybind = alt+h=goto_split:left
+keybind = alt+j=goto_split:down
+keybind = alt+k=goto_split:up
+keybind = alt+l=goto_split:right
+
+# === Font Configuration ===
+font-family = "JetBrains Mono Nerd Font"
+font-size = 16
+
+# === Cell Adjustments ===
+adjust-cell-width = 0
+adjust-cell-height = 0
+adjust-font-baseline = 0
+adjust-underline-position = 0
+adjust-underline-thickness = 0
+adjust-strikethrough-position = 0
+adjust-strikethrough-thickness = 0
+adjust-overline-position = 0
+adjust-overline-thickness = 0
+adjust-cursor-thickness = 0
+adjust-cursor-height = 0
+adjust-box-thickness = 0
+
+# === Text Handling ===
+grapheme-width-method = "unicode"
+freetype-load-flags = ""
+
+# === Theme and Colors ===
+selection-invert-fg-bg = false
+minimum-contrast = 1
+cursor-invert-fg-bg = false
+cursor-opacity = 1.0
+cursor-style = "block"
+cursor-style-blink = true
+cursor-click-to-move = true
+
+# === Mouse Behavior ===
+mouse-hide-while-typing = true
+mouse-shift-capture = false
+mouse-scroll-multiplier = 1.0
+
+# === Background Settings ===
+background-opacity = 0.8
+background-blur-radius = 15
+unfocused-split-opacity = 1.0
+unfocused-split-fill = ""
+
+# === Command and Shell ===
+command = ""
+initial-command = ""
+wait-after-command = false
+abnormal-command-exit-runtime = 0
+
+# === Scrollback and Memory ===
+scrollback-limit = 10000
+link-url = true
+
+# === Window Settings ===
+fullscreen = false
+title = ""       
+class = ""     
+x11-instance-name = ""
+working-directory = "home"
+
+# === Clipboard Settings ===
+clipboard-read = "ask"
+clipboard-write = "allow"
+clipboard-trim-trailing-spaces = false
+clipboard-paste-protection = true
+clipboard-paste-bracketed-safe = true
+
+# === Platform Specific (Linux/GTK) ===
+gtk-single-instance = true
+gtk-titlebar = false
+gtk-tabs-location = "bottom"
+gtk-wide-tabs = false
+
+# === Updates and System ===
+auto-update = "off"
+auto-update-channel = "stable"
+
+# === Resource Management ===
+linux-cgroup = "single-instance"
+linux-cgroup-memory-limit = 0
+linux-cgroup-processes-limit = 0
+linux-cgroup-hard-fail = false
+
+# === Additional Settings ===
+desktop-notifications = true
+bold-is-bright = false
+term = "xterm-256color"
+enquiry-response = ""
+
+# === Window Padding ===
+window-padding-balance = true
+window-padding-color = "background"
+window-vsync = true
+window-inherit-working-directory = true
+window-inherit-font-size = true        
+window-height = ""                    
+window-width = ""                    
+window-save-state = "default"       
+window-step-resize = true          
+window-new-tab-position = "current"
+window-colorspace = "srgb"        
+
+# === Resize Overlay ===
+resize-overlay = "after-first"
+resize-overlay-position = "center"
+resize-overlay-duration = "750ms"
+
+# === Quick Terminal ===
+quick-terminal-position = "bottom"
+quick-terminal-screen = "main"
+quick-terminal-animation-duration = 0.2
+quick-terminal-autohide = true
+
+# === Shell Integration ===
+shell-integration = "detect"
+shell-integration-features = ""
+
+# === macOS Icon Settings ===
+macos-icon = "official"
+macos-icon-frame = "aluminum"
+macos-icon-ghost-color = ""
+macos-icon-screen-color = ""
+
+# === Application Behavior ===
+focus-follows-mouse = false
+initial-window = true
+quit-after-last-window-closed = false
+quit-after-last-window-closed-delay = ""
+
+# === Custom Shader ===
+custom-shader = ""          
+custom-shader-animation = true
+
+# === Window Style (Adwaita) ===
+adw-toolbar-style = "flat"   
+
