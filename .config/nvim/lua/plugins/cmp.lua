@@ -114,13 +114,9 @@ return {
 
 					-- <Tab> through the snippet input fields
 					["<Tab>"] = cmp.mapping(function(fallback)
-						if require("copilot.suggestion").is_visible() then
-							require("copilot.suggestion").accept()
-						elseif cmp.visible() then
+						if cmp.visible() then
 							cmp.select_next_item()
-						elseif luasnip.expandable() then
-							luasnip.expand()
-						elseif luasnip.expand_or_locally_jumpable() then
+						elseif luasnip.expand_or_jumpable() then
 							luasnip.expand_or_jump()
 						else
 							fallback()
@@ -162,7 +158,7 @@ return {
 				},
 				-- sources = {
 				--   { name = "copilot" },
-				  -- { name = "nvim_lsp" },
+				-- { name = "nvim_lsp" },
 				--   { name = "luasnip" },
 				--   { name = "cmp_tabnine" },
 				--   { name = "nvim_lua" },
