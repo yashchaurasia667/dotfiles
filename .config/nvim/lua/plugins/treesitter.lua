@@ -9,7 +9,7 @@ return {
 			auto_install = true,
 			indent = { enable = true },
 			highlight = { enable = true },
-			ensure_insalled = {
+			ensure_installed = {
 				"bash",
 				"c",
 				"cmake",
@@ -23,6 +23,7 @@ return {
 				"markdown",
 				"python",
 				"typescript",
+        "tsx"
 			},
 		})
 

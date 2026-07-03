@@ -68,11 +68,13 @@ zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 alias ls='ls --color'
 alias ll='ls -la --color'
 alias c='clear'
+
 alias stuff='cd /home/yash/Documents/Stuff'
+alias crp='cd /home/yash/Documents/Stuff/current_projects'
+
 alias skl='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia java -jar /usr/bin/SKlauncher-3.2.18.jar'
 alias start_xng='cd /home/yash/.config/searxng && docker run --name searxng -d -p 8888:8080 -v "./config/:etc/searxng/" -v ".data:/vaar/cache/searxng/" docker.io/searxng/searxng:latest'
 alias npd='npm run dev'
-alias dnvim='DISPLAY= nvim'
 alias ff='fastfetch'
 # alias uwlpr='/home/yash/.config/scripts/theme_switcher'
 alias uwlpr() { /home/yash/.config/scripts/theme_switcher "$@" }
@@ -90,3 +92,7 @@ export STARSHIP_CONFIG=~/.config/starship/starship.toml
 
 # Added by Antigravity CLI installer
 export PATH="/home/yash/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion

@@ -64,9 +64,9 @@ return {
 			local cmp = require("cmp")
 			local luasnip = require("luasnip")
 			luasnip.config.setup({})
-			luasnip.filetype_extend("javascript", { "html" })
-			luasnip.filetype_extend("javascript", { "javascriptreact" })
-			luasnip.filetype_extend("typescript", { "typescriptreact" })
+			-- luasnip.filetype_extend("javascript", { "html" })
+			-- luasnip.filetype_extend("javascript", { "javascriptreact" })
+			-- luasnip.filetype_extend("typescript", { "typescriptreact" })
 
 			-- cmd command line completions
 			cmp.setup.cmdline("/", {
