@@ -8,10 +8,6 @@ set = true
 command = "awww img --transition-type random \"{{image}}\""
 post_hook = "cp {{image}} /opt/wal.png"
 
-[templates.alacritty]
-input_path = './templates/alacritty.toml'
-output_path = '~/.config/alacritty/colors.toml'
-
 [templates.foot]
 input_path = './templates/foot.ini'
 output_path = '~/.config/foot/theme.ini'
@@ -38,6 +34,7 @@ post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings s
 [templates.gtk4]
 input_path = './templates/gtk-colors.css'
 output_path = '~/.config/gtk-4.0/colors.css'
+post_hook = '~/.config/matugen/post-hook-scripts/gtk-themes-reload.sh'
 
 [templates.qt5ct]
 input_path = './templates/qtct-colors.conf'
@@ -67,11 +64,15 @@ post_hook = "swaync-client -rs"
 [templates.eww]
 input_path = "./templates/eww.scss"
 output_path = "~/.config/eww/colors.scss"
-post_hook = "eww reload"
+post_hook = "~/.config/eww/launch.sh"
 
 # [templates.ghostty]
 # input_path = './templates/ghostty'
 # output_path = '~/.config/ghostty/themes/Matugen'
+
+[templates.alacritty]
+input_path = './templates/alacritty.toml'
+output_path = '~/.config/alacritty/colors.toml'
 
 # [templates.kitty]
 # input_path = './templates/kitty-colors.conf'

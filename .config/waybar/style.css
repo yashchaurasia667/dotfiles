@@ -8,6 +8,29 @@
   min-height: 0;
 }
 
+.make-it-round,
+#workspaces,
+#workspaces button,
+#mode,
+#clock,
+#battery,
+#custom-power,
+#custom-media,
+#tray,
+#pulseaudio,
+#wireplumber,
+#cpu,
+#temperature,
+#network,
+.modules-right {
+  border-radius: 9999px;
+}
+
+.modules-right {
+  background: @surface;
+  padding: 6px 3px;
+}
+
 window#waybar {
   background: transparent;
   color: @on_surface;
@@ -24,35 +47,62 @@ tooltip label {
 
 #workspaces {
   background: @surface;
+  padding: 6px 3px;
 }
 
 #workspaces button {
-  padding: 0 25px;
+  padding: 0 8px;
+  margin: 0 3px;
   color: @on_surface_variant;
+  transition: padding 0.5s ease-out,
+  background 0.2s ease,
+  color 0.2s ease;
 }
 
 #workspaces button:hover {
   background: @inverse_primary;
 }
 
-#workspaces button.active, #workspaces button.focused {
-  background: @primary; 
+#workspaces button.active,
+#workspaces button.focused {
+  background: @primary;
+  color: @on_primary;
+  padding: 0 15px;
+}
+
+#mode,
+#clock,
+#battery {
+  background: @primary;
+  padding: 0 10px;
+  border-radius: 0;
   color: @on_primary;
 }
 
-#mode, #clock, #battery {
-  padding: 0 10px;
+#custom-separator {
+  border-radius: 0;
+}
+
+#battery-clock {
+  border-radius: 9999px;
   background: @primary;
   color: @on_primary;
 }
 
-#clock, #battery {
+#clock,
+#battery {
   background: @primary;
   font-weight: 700;
+  margin: 0;
 }
 
 #battery {
-  padding-right: 20px;
+  padding-right: 15px;
+  border-radius: 9999px 0 0 9999px;
+}
+
+#clock {
+  border-radius: 0 9999px 9999px 0;
 }
 
 #mode {
@@ -82,23 +132,28 @@ tooltip label {
   animation-direction: alternate;
 }
 
-#wireplumber, #pulseaudio {
+#wireplumber,
+#pulseaudio {
   background: @surface;
   color: @on_surface;
-  padding: 0 15px;
+  padding-right: 10px;
+  margin-left: 5px;
+  /* padding: 0 15px; */
 }
 
 #network {
   background: @primary;
   color: @on_primary;
-  padding: 0 8px;
+  padding: 3px 6px;
   padding-right: 16px;
+  margin-right: 5px;
 }
 
 #cpu {
   background-color: @surface;
   color: @on_surface;
-  padding: 0 10px;
+  padding: 0 7px;
+  margin-right: 5px;
   transition: background-color 0.5s ease-in-out;
 }
 
@@ -115,13 +170,18 @@ tooltip label {
 #temperature {
   background: @surface;
   color: @on_surface;
-  padding: 0 10px;
+  margin-left: 5px;
+  /* padding: 0 10px; */
 }
 
 #custom-power {
   background: @surface;
   padding: 0 15px;
   padding-right: 20px;
+}
+
+#custom-power:hover {
+  background: @inverse_primary;
 }
 
 #group-power {
@@ -137,7 +197,6 @@ tooltip label {
   background: @surface;
   padding: 0 10px;
   border: 2px solid @primary;
-  border-radius: 9999px;
   transition: all 0.2s ease;
 }
 
@@ -155,13 +214,12 @@ tooltip label {
 }
 
 #custom-notification {
-  font-size: 28px;
+  /* font-size: 20px; */
   padding-right: 10px;
   color: @on_surface;
 }
 
 #tray {
-  border-radius: 9999px;
   background: @surface;
   padding: 0 15px;
 }

@@ -28,7 +28,7 @@ hl.bind(mainMod .. " + V", hl.dsp.exec_cmd('cliphist list | rofi -dmenu -display
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd("dolphin"))
 hl.bind(mainMod .. " + Comma", hl.dsp.exec_cmd("rofi -mode emoji -show emoji -emoji-format '{emoji} {name}'"))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("prime-run discord --ozone-platform=x11"))
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("vesktop"))
 
 -- MOUSE BINDS
 hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })

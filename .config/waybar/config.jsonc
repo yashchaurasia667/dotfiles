@@ -22,12 +22,30 @@
     "tray",
     "custom/notification",
     "network", 
+    "custom/separator",
     "temperature",
     "cpu",
+    "custom/separator",
     "wireplumber", 
-    "battery", 
-    "clock"
+    "group/battery-clock"
+    // "battery", 
+    // "clock"
   ],
+
+  "group/battery-clock": {
+    "orientation": "horizontal",
+    "modules": [
+      "battery",
+      "custom/separator",
+      "clock"
+    ]
+  },
+
+  "custom/separator": {
+    "format": "|",
+    "interval": "once",
+    "tooltip": false
+  },
 
   "custom/notification": {
     "tooltip": false,
@@ -120,16 +138,13 @@
     "tooltip": false
   },
 
-  "sway/mode": {
-    "format": " {}",
-    "max-length": 50
-  },
-
   "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
     "show-special": true,
     "format-icons": {
+      // "active": " ",
+      // "default": "●",
       "special:special": ""
     },
     "sort-by-number": true,
@@ -154,7 +169,8 @@
       "portable": "",
       "car": "",
       "default": ["", ""]
-    }
+    },
+    "on-click": "swaync-client -t -sw"
   },
 
   "network": {
