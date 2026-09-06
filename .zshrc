@@ -76,7 +76,7 @@ alias skl='__NV_PRIME_RENDER_OFFLOAD=1 __GLX_VENDOR_LIBRARY_NAME=nvidia java -ja
 alias start_xng='cd /home/yash/.config/searxng && docker run --name searxng -d -p 8888:8080 -v "./config/:etc/searxng/" -v ".data:/vaar/cache/searxng/" docker.io/searxng/searxng:latest'
 alias npd='npm run dev'
 alias ff='fastfetch'
-# alias uwlpr='/home/yash/.config/scripts/theme_switcher'
+alias ksp='cd /home/yash/Documents/Stuff/CTFs/kaspersky'
 alias uwlpr() { /home/yash/.config/scripts/theme_switcher "$@" }
 
 # Shell integrations

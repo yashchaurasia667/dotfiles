@@ -19,5 +19,5 @@ hl.animation({ leaf = "windows", enabled = true, speed = 2.5, bezier = "quick", 
 
 hl.animation({ leaf = "workspacesIn", enabled = true, speed = 4, bezier = "default", style = "slide" })
 hl.animation({ leaf = "workspacesOut", enabled = true, speed = 6, bezier = "default", style = "slide" })
-hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 2.8, bezier = "circ", style = "slidevert" })
+hl.animation({ leaf = "specialWorkspace", enabled = true, speed = 2.8, bezier = "default", style = "slidevert" })
 hl.animation({ leaf = "zoomFactor", enabled = true, speed = 8, bezier = "quick" })

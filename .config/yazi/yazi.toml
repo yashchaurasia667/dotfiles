@@ -1,27 +1,14 @@
 [opener]
-image = [
-  { run = 'eog "$@"', desc = "eog", block = false, orphan = true },
-]
-text = [
-  { run = 'nvim "$@"', desc = "nvim", block = true },
-]
-json = [
-  { run = 'nvim "$@"', desc = "nvim", block = true },
-]
-video = [
-  { run = 'mpv "$@"', desc = "mpv", block = false, orphan = true },
-]
-pdf = [
-  { run = 'okular "$@"', desc = "okular", block = false, orphan = true },
-]
-exe = [
-  { run = 'wine "$@"', desc = "wine", block = true },
-]
+  xdg = [ { run = "xdg-open %s", orphan = true, desc = "open with xdg-open" } ]
+  img = [ { run = "imv %s .", orphan = true, desc = "open"} ]
+  txt = [ { run = "nvim %s", block = true, desc = "open with nvim" } ]
 
 [open]
-rules = [
-  { mime = "image/*", use = "image" },
-  { mime = "text/*", use = "text" },
-  { mime = "video/*", use = "video" },
-  { mime = "application/pdf", use = "pdf" },
-]
+  rules = [
+    { mime = "image/*", use = "img" },
+    { mime = "video/*", use = "xdg" },
+    { mime = "text/*", use = "txt" },
+    { mime = "application/pdf", use = "xdg" },
+    { mime = "application/epub+zip", use = "xdg" },
+    { mime = "*", use = "xdg" },
+  ]
