@@ -1,119 +1,76 @@
-require("colors")
-require("conf.env")
-require("conf.binds")
-require("conf.windowrules")
-require("conf.animations")
-require("conf.autostart")
-require("conf.gestures")
-require("conf.plugins")
-require("conf.globals")
+local home   = os.getenv("HOME")
+local hypr   = home .. "/.config/hypr"
+package.path = package.path .. ";" .. home .. "/.config/caelestia/?.lua"
 
-------------------
----- MONITORS ----
-------------------
+-- Create a file if it doesn't exist, optionally with initial content
+local function maybe_create(file, content)
+    local f = io.open(file)
 
+    if f then
+        f:close()
+        return
+    end
+
+    f = io.open(file, "w")
+    if f then
+        if content then f:write(content) end
+        f:close()
+    end
+end
+
+-- Copy src to dst, but only if dst doesn't already exist
+local function maybe_copy(src, dst)
+    local out = io.open(dst)
+    if out then
+        out:close()
+        return
+    end
+
+    local input = io.open(src, "r")
+    if not input then return end
+
+    out = io.open(dst, "w")
+    if out then
+        out:write(input:read("*a"))
+        out:close()
+    end
+    input:close()
+end
+
+-- Maybe set current colours to defaults
+maybe_copy(hypr .. "/scheme/default.lua", hypr .. "/scheme/current.lua")
+
+-- User variables
+maybe_create(home .. "/.config/caelestia/hypr-vars.lua", "return {}\n")
+local overrides = require("hypr-vars")
+if type(overrides) == "table" then
+    local vars = require("variables")
+    for k, v in pairs(overrides) do
+        vars[k] = v
+    end
+end
+
+-- Default monitor conf
 hl.monitor({
-	output = "",
-	mode = "preferred",
-	position = "auto",
-	scale = "1",
+    output   = "",
+    mode     = "preferred",
+    position = "auto",
+    scale    = 1,
 })
 
------------------------
----- LOOK AND FEEL ----
------------------------
+-- Configs
+require("hyprland.env")
+require("hyprland.general")
+require("hyprland.input")
+require("hyprland.misc")
+require("hyprland.animations")
+require("hyprland.decoration")
+require("hyprland.group")
+require("hyprland.execs")
+require("hyprland.rules")
+require("hyprland.gestures")
+require("hyprland.keybinds")
 
-hl.config({
-	general = {
-		gaps_in = 5,
-		gaps_out = 10,
-		border_size = 2,
-
-		col = {
-			active_border = { colors = { inverse_primary }, angle = 45 },
-			inactive_border = on_secondary,
-		},
-
-		-- Set to true to enable resizing windows by clicking and dragging on borders and gaps
-		resize_on_border = true,
-
-		allow_tearing = false,
-		layout = "scrolling",
-	},
-
-	decoration = {
-		rounding = 10,
-		rounding_power = 2,
-
-		-- Change transparency of focused and unfocused windows
-		active_opacity = 1.0,
-		inactive_opacity = 1.0,
-
-		-- shadow = {
-		--     enabled      = true,
-		--     range        = 4,
-		--     render_power = 3,
-		--     color        = 0xee1a1a1a,
-		-- },
-
-		blur = {
-			enabled = true,
-			size = 10, 
-			passes = 2,
-      -- noise = 0.1,
-      contrast = 1.5,
-      brightness = 1.2,
-      vibrancy = 0.3,
-      vibrancy_darkness = 0.3,
-      -- special = true,
-      new_optimizations = true,
-		},
-	},
-
-	animations = {
-		enabled = true,
-	},
-
-	misc = {
-		force_default_wallpaper = -1,
-		-- disable_hyrpland_logo = true,
-	},
-})
-
-hl.config({
-	dwindle = {
-		--pseudo_tile = true,
-		preserve_split = true,
-	},
-	scrolling = {
-		fullscreen_on_one_column = true,
-	},
-})
-
----------------
----- INPUT ----
----------------
-
-hl.config({
-	input = {
-		kb_layout = "us",
-		kb_variant = "",
-		kb_model = "",
-		kb_options = "",
-		kb_rules = "",
-
-		repeat_delay = 200,
-		repeat_rate = 30,
-
-		follow_mouse = 1,
-		sensitivity = 0,
-
-		touchpad = {
-			natural_scroll = true,
-			tap_to_click = true,
-			disable_while_typing = true,
-			scroll_factor = 0.2,
-		},
-	},
-})
-
+-- User configs
+maybe_create(home .. "/.config/caelestia/hypr-user.lua")
+require("hypr-user")

@@ -1,0 +1,58 @@
+{
+    "appearance": {
+        "transparency": {
+            "enabled": true
+        }
+    },
+    "background": {
+        "wallpaperEnabled": true
+    },
+    "bar": {
+        "dragThreshold": 30,
+        "persistent": false,
+        "workspaces": {
+            "activeTrail": true,
+            "maxWindowIcons": 2,
+            "occupiedBg": true,
+            "showWindowsOnSpecialWorkspaces": true,
+            "shown": 4
+        }
+    },
+    "dashboard": {
+        "mediaUpdateInterval": 500
+    },
+    "general": {
+        "apps": {
+            "explorer": [
+                "dolphin"
+            ],
+            "playback": [
+                "/usr/bin/vlc",
+                "--started-from-file"
+            ],
+            "terminal": [
+                "alacritty"
+            ]
+        }
+    },
+    "nexus": {
+        "networkRescanInterval": 15000
+    },
+    "notifs": {
+        "fullscreen": "On"
+    },
+    "services": {
+        "audioIncrement": 0.02,
+        "brightnessIncrement": 0.1,
+        "defaultPlayer": "Brave",
+        "gpuType": "Nvidia",
+        "smartScheme": true,
+        "useFahrenheit": false
+    },
+    "utilities": {
+        "toasts": {
+            "capsLockChanged": false,
+            "numLockChanged": false
+        }
+    }
+}

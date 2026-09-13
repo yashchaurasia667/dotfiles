@@ -1,11 +1,54 @@
-source /usr/share/cachyos-fish-config/cachyos-config.fish
+if status is-interactive
+    # Starship custom prompt
+    command -v starship &> /dev/null && starship init fish | source
 
-# overwrite greeting
-# potentially disabling fastfetch
-#function fish_greeting
-#    # smth smth
-#end
+    # Direnv + Zoxide
+    command -v direnv &> /dev/null && direnv hook fish | source
+    command -v zoxide &> /dev/null && zoxide init fish --cmd cd | source
 
+    # Better ls
+    command -v eza &> /dev/null && alias ls='eza --icons --group-directories-first'
 
-# Added by Antigravity CLI installer
-set -gx PATH "/home/yash/.local/bin" $PATH
+    # custom aliasing
+    alias ll='eza --icons --group-directories-first --all -1'
+    alias c='clear'
+    alias stuff='cd /home/yash/Documents/Stuff/'
+    alias crp='cd /home/yash/Documents/Stuff/current_projects/'
+    alias npd='npm run dev'
+    alias ff='fastfetch'
+
+    # Abbrs
+    abbr lg 'lazygit'
+    abbr gd 'git diff'
+    abbr ga 'git add .'
+    abbr gc 'git commit -am'
+    abbr gl 'git log'
+    abbr gs 'git status'
+    abbr gst 'git stash'
+    abbr gsp 'git stash pop'
+    abbr gp 'git push'
+    abbr gpl 'git pull'
+    abbr gsw 'git switch'
+    abbr gsm 'git switch main'
+    abbr gb 'git branch'
+    abbr gbd 'git branch -d'
+    abbr gco 'git checkout'
+    abbr gsh 'git show'
+
+    abbr l 'ls'
+    abbr ll 'ls -l'
+    abbr la 'ls -a'
+    abbr lla 'ls -la'
+
+    # Custom colours
+    cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
+
+    # For jumping between prompts in foot terminal
+    function mark_prompt_start --on-event fish_prompt
+        echo -en "\e]133;A\e\\"
+    end
+
+    # Custom fish config
+    set -q XDG_CONFIG_HOME && set -l cConf $XDG_CONFIG_HOME/caelestia || set -l cConf $HOME/.config/caelestia
+    source $cConf/user-config.fish 2> /dev/null
+end
