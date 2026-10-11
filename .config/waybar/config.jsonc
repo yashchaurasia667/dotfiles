@@ -1,9 +1,9 @@
 {
   "layer": "bottom",
   "position": "top",
-  "height": 35,
+  "height": 30,
 
-  "margin-top": 10,
+  "margin-top": 5,
   "margin-bottom": 0,
   "margin-left": 5,
   "margin-right": 5,
@@ -141,11 +141,14 @@
   "hyprland/workspaces": {
     "format": "{icon}",
     "on-click": "activate",
+    "tooltip": false,
     "show-special": true,
     "format-icons": {
       // "active": " ",
       // "default": "●",
-      "special:special": ""
+      "special:special": "",
+      "special:chat": "",
+      "special:music": "󰎇"
     },
     "sort-by-number": true,
     "persistent-workspaces": {

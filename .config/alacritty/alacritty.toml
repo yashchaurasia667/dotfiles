@@ -15,20 +15,8 @@ TERM = "xterm-256color"
 [font]
 size = 16.0
 
-# [font.bold]
-# family = "Maple Mono"
-# style = "Bold"
-#
-# [font.bold_italic]
-# family = "Maple Mono"
-# style = "Bold Italic"
-#
-# [font.italic]
-# family = "Maple Mono"
-# style = "Italic"
-
 [font.normal]
-family = "Maple Mono"
+family = "Maple Mono NF CN"
 style = "Regular"
 
 [[keyboard.bindings]]
@@ -61,7 +49,7 @@ history = 50000
 multiplier = 10
 
 [selection]
-save_to_clipboard = true
+save_to_clipboard = false
 semantic_escape_chars = "|:\"' {}()[]<>"
 
 [window]
