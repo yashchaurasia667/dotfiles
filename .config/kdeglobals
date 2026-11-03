@@ -138,13 +138,14 @@ TerminalApplication=alacritty
 TerminalService=/home/yash/.local/share/applications/alacritty.desktop
 
 [Icons]
-Theme=Tela-dark
+Theme=Tela-light
 
 [KDE]
 AnimationDurationFactor=0.25
 LookAndFeelPackage=org.kde.oxygen
 contrast=4
 frameContrast=0.2
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false

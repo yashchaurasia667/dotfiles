@@ -9,7 +9,7 @@ require("modules.gestures")
 require("modules.plugins")
 require("modules.globals")
 
-require("plugins.scrolloverview")
+-- require("plugins.scrolloverview")
 
 ------------------
 ---- MONITORS ----
@@ -29,8 +29,8 @@ hl.monitor({
 hl.config({
   general = {
     gaps_in = 5,
-    gaps_out = 5,
-    border_size = 1,
+    gaps_out = 10,
+    border_size = 2,
 
     col = {
       active_border = { colors = { inverse_primary }, angle = 45 },
@@ -79,7 +79,7 @@ hl.config({
       enabled = false,
       range = 20,
       offset = { 0, 2 },
-      render_power = 10,
+      -- render_power = 10,
       color = "rgba(00000020)",
     },
 

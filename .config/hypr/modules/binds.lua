@@ -7,13 +7,20 @@ require("modules.globals")
 -- CORE
 hl.bind(mainMod .. " + RETURN", hl.dsp.exec_cmd(terminal))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
--- hl.bind("ALT + SPACE", hl.dsp.exec_cmd('rofi -show drun -display-drun ""'))
-hl.bind("ALT + SPACE", hl.dsp.exec_cmd("qs ipc call launcher toggle"))
-hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("wlogout"))
+hl.bind(mainMod .. " + ALT + SPACE", hl.dsp.exec_cmd('rofi -show drun -display-drun ""'))
+-- hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("wlogout"))
 hl.bind(mainMod .. " + ALT + L", hl.dsp.exec_cmd("hyprlock"))
 
 hl.bind(mainMod .. " + S", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + I", hl.dsp.layout("togglesplit")) --dwindle only
+
+
+-- Quickshell binds
+hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("qs ipc call controlcenter toggle"))
+hl.bind("ALT + SPACE", hl.dsp.exec_cmd("qs ipc call launcher toggle"))
+hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("qs ipc call powermenu toggle"))
+hl.bind(mainMod .. " + V", hl.dsp.exec_cmd("qs ipc call clipboard toggle"))
+hl.bind(mainMod .. " + SHIFT + W", hl.dsp.exec_cmd("qs ipc call wallpaper toggle"))
 
 -- SHORTCUTS
 -- hl.bind(mainMod .. " + M", function()
@@ -23,7 +30,7 @@ hl.bind(mainMod .. " + I", hl.dsp.layout("togglesplit")) --dwindle only
 
 
 -- hl.bind(mainMod .. " + B", hl.dsp.exec_cmd("prime-run brave-origin --ozone-platform=x11"))
-hl.bind(mainMod .. " + V", hl.dsp.exec_cmd('cliphist list | rofi -dmenu -display-dmenu "" | cliphist decode | wl-copy'))
+-- hl.bind(mainMod .. " + V", hl.dsp.exec_cmd('cliphist list | rofi -dmenu -display-dmenu "" | cliphist decode | wl-copy'))
 
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + SHIFT + E", hl.dsp.exec_cmd(fileManagerSecondary))
@@ -69,7 +76,7 @@ hl.bind(mainMod .. " + SHIFT + F", hl.dsp.window.fullscreen({ mode = "maximized"
 
 -- Scratchpad (special workspace)
 hl.bind(mainMod .. " + MINUS", hl.dsp.workspace.toggle_special("special"))
-hl.bind(mainMod .. " + SHIFT + MINUS", hl.dsp.window.move({ workspace = "special" }))
+hl.bind(mainMod .. " + SHIFT + MINUS", hl.dsp.window.move({ workspace = "special:special" }))
 
 -- Enter the resize submap
 hl.bind(mainMod .. " + P", hl.dsp.submap("resize"))
